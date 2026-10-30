@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "jinaai/jina-embeddings-v3-hf",
+ "sha": "d18862d9a48706220815554fac3ebb4dfa46fc28",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 48.7,
+ "dtype": "torch.bfloat16",
+ "encode_s": 16.04216742515564,
+ "dim": 1024
+}

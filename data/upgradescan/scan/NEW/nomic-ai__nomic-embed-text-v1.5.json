@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "nomic-ai/nomic-embed-text-v1.5",
+ "sha": "e9b6763023c676ca8431644204f50c2b100d9aab",
+ "ok": false,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 2.9,
+ "dtype": "torch.float32",
+ "error": "AttributeError: 'NomicBertModel' object has no attribute 'get_extended_attention_mask'",
+ "tb_tail": ".venv_NEW/lib/python3.12/site-packages/sentence_transformers/base/modules/transformer.py\", line 1647, in forward\n    model_output = model_method(**filtered_kwargs)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"~/vscan/hf_cache/modules/transformers_modules/nomic_hyphen_ai/nomic_hyphen_bert_hyphen_2048/7710840340a098cfb869c4f65e87cf2b1b70caca/modeling_hf_nomic_bert.py\", line 1914, in forward\n    attention_mask = self.get_extended_attention_mask(attention_mask, hidden_states.shape[:-1])\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"~/vdrift/.venv_NEW/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1972, in __getattr__\n    raise AttributeError(\nAttributeError: 'NomicBertModel' object has no attribute 'get_extended_attention_mask'\n"
+}

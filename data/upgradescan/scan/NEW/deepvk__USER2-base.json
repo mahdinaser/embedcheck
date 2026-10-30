@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "deepvk/USER2-base",
+ "sha": "94bbff0cc696f26dc93b275fc874657727df0c29",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.93,
+ "dtype": "torch.float32",
+ "encode_s": 0.8385777473449707,
+ "dim": 768
+}

@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "ai-forever/FRIDA",
+ "sha": "850455b605544a944739b25f81ddf812b6e3d0d5",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 75.03,
+ "dtype": "torch.float32",
+ "encode_s": 4.4652464389801025,
+ "dim": 1536
+}

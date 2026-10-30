@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "imvladikon/sentence-transformers-alephbert",
+ "sha": "547db5a2028766922251e5e2be6a973674ee0c07",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 62.78,
+ "dtype": "torch.float32",
+ "encode_s": 1.1027798652648926,
+ "dim": 768
+}

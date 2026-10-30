@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "intfloat/multilingual-e5-large-instruct",
+ "sha": "274baa43b0e13e37fafa6428dbc7938e62e5c439",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 34.63,
+ "dtype": "torch.float32",
+ "encode_s": 2.5862436294555664,
+ "dim": 1024
+}

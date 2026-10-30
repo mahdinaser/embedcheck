@@ -1,0 +1,11 @@
+{
+ "tag": "OLD",
+ "id": "Qwen/Qwen3-Embedding-0.6B",
+ "sha": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+ "ok": false,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "error": "ValueError: The checkpoint you are trying to load has model type `qwen3` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.\n\nYou can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing",
+ "tb_tail": "^^^^^^^^^^^\n  File \"~/vdrift/.venv_OLD/lib/python3.12/site-packages/transformers/models/auto/configuration_auto.py\", line 1073, in from_pretrained\n    raise ValueError(\nValueError: The checkpoint you are trying to load has model type `qwen3` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.\n\nYou can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release version that supports this model yet. In this case, you can get the most up-to-date code by installing Transformers from source with the command `pip install git+https://github.com/huggingface/transformers.git`\n"
+}

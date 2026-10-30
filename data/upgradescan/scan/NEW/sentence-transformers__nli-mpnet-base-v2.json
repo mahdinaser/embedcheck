@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "sentence-transformers/nli-mpnet-base-v2",
+ "sha": "c2f4dd9a1dc4337c28cfbd650433f761bb304c50",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.87,
+ "dtype": "torch.float32",
+ "encode_s": 0.5192921161651611,
+ "dim": 768
+}

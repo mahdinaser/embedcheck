@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "sentence-transformers/msmarco-distilbert-base-tas-b",
+ "sha": "b12d9352e776979147078a8975a4885042984fd1",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 6.21,
+ "dtype": "torch.float32",
+ "encode_s": 0.26893067359924316,
+ "dim": 768
+}

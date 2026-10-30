@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "sentence-transformers/paraphrase-mpnet-base-v2",
+ "sha": "6cc9279c672dc57f94445ef259b28a1b736fec8f",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 10.2,
+ "dtype": "torch.float32",
+ "encode_s": 0.5325829982757568,
+ "dim": 768
+}

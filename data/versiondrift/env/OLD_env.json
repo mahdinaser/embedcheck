@@ -1,0 +1,104 @@
+{
+ "tag": "OLD",
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "python": "3.12.3",
+ "device": "cpu",
+ "models": {
+  "MiniLM-L6": {
+   "ok": true,
+   "max_seq_length": 256,
+   "dim": 384,
+   "sec": 240.2
+  },
+  "mpnet-base": {
+   "ok": true,
+   "max_seq_length": 384,
+   "dim": 768,
+   "sec": 2313.5
+  },
+  "multiqa-MiniLM": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 384,
+   "sec": 381.3
+  },
+  "para-multi-MiniLM": {
+   "ok": true,
+   "max_seq_length": 128,
+   "dim": 384,
+   "sec": 225.6
+  },
+  "bge-small": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 384,
+   "sec": 761.2
+  },
+  "bge-base": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 768,
+   "sec": 2370.2
+  },
+  "e5-small-v2": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 384,
+   "sec": 759.8
+  },
+  "e5-base-v2": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 768,
+   "sec": 2414.4
+  },
+  "me5-small": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 384,
+   "sec": 821.8
+  },
+  "gte-small": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 384,
+   "sec": 753.1
+  },
+  "gte-base": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 768,
+   "sec": 2369.6
+  },
+  "nomic-v1.5": {
+   "ok": true,
+   "max_seq_length": 8192,
+   "dim": 768,
+   "sec": 3689.4
+  },
+  "arctic-s": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 384,
+   "sec": 771.5
+  },
+  "mxbai-large": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 1024,
+   "sec": 8245.5
+  },
+  "jina-v2-small": {
+   "ok": true,
+   "max_seq_length": 8192,
+   "dim": 512,
+   "sec": 859.9
+  },
+  "qwen3-0.6b": {
+   "ok": false,
+   "error": "ValueError: The checkpoint you are trying to load has model type `qwen3` but Transformers does not recognize this architecture. This could be because of an issue with the checkpoint, or because your version of Transformers is out of date.\n\nYou can update Transformers with the command `pip install --upgrade transformers`. If this does not work, and the checkpoint is very new, then there may not be a release ve"
+  }
+ }
+}

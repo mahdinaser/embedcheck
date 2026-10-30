@@ -1,0 +1,123 @@
+[
+ {
+  "id": "ibm-granite/granite-embedding-small-english-r2",
+  "old": 0.2054126262664795,
+  "new": 1.4352340698242188,
+  "fp32": 0.20435190200805664,
+  "r_new": 6.987078135899522,
+  "r_fp32": 0.9948361292209623,
+  "cos_med": 1.0,
+  "cos_min": 1.0,
+  "dtype": "torch.float32"
+ },
+ {
+  "id": "mixedbread-ai/mxbai-embed-large-v1",
+  "old": 1.9130308628082275,
+  "new": 11.314832210540771,
+  "fp32": 1.8836288452148438,
+  "r_new": 5.914610386332816,
+  "r_fp32": 0.9846306621785373,
+  "cos_med": 1.0,
+  "cos_min": 1.0,
+  "dtype": "torch.float32"
+ },
+ {
+  "id": "intfloat/multilingual-e5-large-instruct",
+  "old": 2.5862436294555664,
+  "new": 16.063441276550293,
+  "fp32": 2.560814142227173,
+  "r_new": 6.211109074798119,
+  "r_fp32": 0.9901674045945367,
+  "cos_med": 1.0,
+  "cos_min": 1.0,
+  "dtype": "torch.float32"
+ },
+ {
+  "id": "thenlper/gte-small",
+  "old": 0.14669132232666016,
+  "new": 1.0430376529693604,
+  "fp32": 0.14637088775634766,
+  "r_new": 7.110425050547079,
+  "r_fp32": 0.9978155860535571,
+  "cos_med": 1.0,
+  "cos_min": 1.0,
+  "dtype": "torch.float32"
+ },
+ {
+  "id": "thenlper/gte-large",
+  "old": 1.9339325428009033,
+  "new": 8.870566368103027,
+  "fp32": 1.8484277725219727,
+  "r_new": 4.586802368636828,
+  "r_fp32": 0.9557870978503239,
+  "cos_med": 1.0,
+  "cos_min": 1.0,
+  "dtype": "torch.float32"
+ },
+ {
+  "id": "mixedbread-ai/deepset-mxbai-embed-de-large-v1",
+  "old": 2.548964500427246,
+  "new": 13.156774997711182,
+  "fp32": 2.552290439605713,
+  "r_new": 5.161615626857849,
+  "r_fp32": 1.0013048197328402,
+  "cos_med": 1.0,
+  "cos_min": 1.0,
+  "dtype": "torch.float32"
+ },
+ {
+  "id": "sdadas/mmlw-retrieval-roberta-large",
+  "old": 3.1572635173797607,
+  "new": 17.078482627868652,
+  "fp32": 3.162261486053467,
+  "r_new": 5.409267403198016,
+  "r_fp32": 1.0015830065011027,
+  "cos_med": 1.0,
+  "cos_min": 1.0,
+  "dtype": "torch.float32"
+ },
+ {
+  "id": "ibm-granite/granite-embedding-125m-english",
+  "old": 0.5630960464477539,
+  "new": 3.6133108139038086,
+  "fp32": 0.5677692890167236,
+  "r_new": 6.4168641152749855,
+  "r_fp32": 1.0082991926483067,
+  "cos_med": 1.0,
+  "cos_min": 1.0,
+  "dtype": "torch.float32"
+ },
+ {
+  "id": "mixedbread-ai/mxbai-embed-2d-large-v1",
+  "old": 1.8692121505737305,
+  "new": 11.367732048034668,
+  "fp32": 1.8813743591308594,
+  "r_new": 6.08156331775689,
+  "r_fp32": 1.0065065961364503,
+  "cos_med": 1.0,
+  "cos_min": 1.0,
+  "dtype": "torch.float32"
+ },
+ {
+  "id": "thenlper/gte-base",
+  "old": 0.5317201614379883,
+  "new": 3.3596761226654053,
+  "fp32": 0.5166425704956055,
+  "r_new": 6.31850429289623,
+  "r_fp32": 0.9716437479037717,
+  "cos_med": 1.0,
+  "cos_min": 1.0,
+  "dtype": "torch.float32"
+ },
+ {
+  "id": "Alibaba-NLP/gte-modernbert-base",
+  "old": 0.7282638549804688,
+  "new": 4.742158651351929,
+  "fp32": 0.7269902229309082,
+  "r_new": 6.511594141218375,
+  "r_fp32": 0.9982511392802892,
+  "cos_med": 1.0,
+  "cos_min": 1.0,
+  "dtype": "torch.float32"
+ }
+]

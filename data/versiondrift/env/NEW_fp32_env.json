@@ -1,0 +1,22 @@
+{
+ "tag": "NEW_fp32",
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "python": "3.12.3",
+ "device": "cpu",
+ "models": {
+  "gte-small": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 384,
+   "sec": 825.0
+  },
+  "gte-base": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 768,
+   "sec": 2554.3
+  }
+ }
+}

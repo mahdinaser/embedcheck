@@ -1,0 +1,1 @@
+2026-10-27 23:21:19 select_models.py run in .venv_OLD (hub 0.36.2) because .venv_NEW hub 2.3.0 rejects list_models(library=...); script unchanged, selection only

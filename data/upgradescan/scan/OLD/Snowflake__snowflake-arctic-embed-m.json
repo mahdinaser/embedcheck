@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "Snowflake/snowflake-arctic-embed-m",
+ "sha": "fc74610d18462d218e312aa986ec5c8a75a98152",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 12.38,
+ "dtype": "torch.float32",
+ "encode_s": 0.5657768249511719,
+ "dim": 768
+}

@@ -1,0 +1,36 @@
+[
+ {
+  "id": "gmunkhtur/paraphrase-multilingual-minilm-l12-v3-mn",
+  "n": 440,
+  "OLD->OLD (sanity)": {
+   "P@1": 1.0,
+   "R@10": 1.0
+  },
+  "index OLD, query NEW": {
+   "P@1": 0.01818181818181818,
+   "R@10": 0.05
+  },
+  "index NEW, query OLD": {
+   "P@1": 0.022727272727272728,
+   "R@10": 0.075
+  },
+  "median_cos_same_sentence": 0.38338857889175415
+ },
+ {
+  "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "n": 440,
+  "OLD->OLD (sanity)": {
+   "P@1": 1.0,
+   "R@10": 1.0
+  },
+  "index OLD, query NEW": {
+   "P@1": 1.0,
+   "R@10": 1.0
+  },
+  "index NEW, query OLD": {
+   "P@1": 1.0,
+   "R@10": 1.0
+  },
+  "median_cos_same_sentence": 1.0
+ }
+]

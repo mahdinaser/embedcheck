@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "thenlper/gte-base",
+ "sha": "c078288308d8dee004ab72c6191778064285ec0c",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 9.14,
+ "dtype": "torch.float32",
+ "encode_s": 0.5317201614379883,
+ "dim": 768
+}

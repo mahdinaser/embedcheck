@@ -1,0 +1,8 @@
+
+== EXPLORATORY primary (only ['gte-base', 'gte-small']): [{'st': '3.4.1', 'tf': '4.48.3', 'torch': '2.14.1+cpu', 'device': 'cpu'}, {'st': '6.2.0', 'tf': '5.21.0', 'torch': '2.14.1+cpu', 'device': 'cpu'}]
+model                status      cosMed   cosMin   nOld   nNew nCross  dCross   ovl drift
+gte-small            ok         1.00000  1.00000  72.12  72.12  72.12   +0.00 1.000 False
+gte-base             ok         1.00000  1.00000  75.43  75.43  75.43   +0.00 1.000 False
+
+PRIMARY OLD vs NEW: drifted 0/2  breaks 0
+(no decision: exploratory)

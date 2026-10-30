@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "mixedbread-ai/mxbai-embed-2d-large-v1",
+ "sha": "416c45d154ee4e435b6d19f6bd54440f38a12ee9",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 35.16,
+ "dtype": "torch.float32",
+ "encode_s": 1.8692121505737305,
+ "dim": 1024
+}

@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "joe32140/ModernBERT-base-msmarco",
+ "sha": "6f3513c9f2bbd7cd5173c06b3c23f2cacaef702b",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.8,
+ "dtype": "torch.float32",
+ "encode_s": 0.7242562770843506,
+ "dim": 768
+}

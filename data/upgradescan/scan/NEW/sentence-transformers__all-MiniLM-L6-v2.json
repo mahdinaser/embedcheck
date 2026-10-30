@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "sentence-transformers/all-MiniLM-L6-v2",
+ "sha": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 1.26,
+ "dtype": "torch.float32",
+ "encode_s": 0.07483053207397461,
+ "dim": 384
+}

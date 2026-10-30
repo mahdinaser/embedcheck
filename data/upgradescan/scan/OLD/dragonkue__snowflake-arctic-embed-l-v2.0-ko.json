@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "dragonkue/snowflake-arctic-embed-l-v2.0-ko",
+ "sha": "55ec6e9358a56d56af759bc8372e970caf8c305f",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 73.89,
+ "dtype": "torch.float32",
+ "encode_s": 2.6085755825042725,
+ "dim": 1024
+}

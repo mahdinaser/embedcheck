@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "BAAI/bge-m3",
+ "sha": "5617a9f61b028005a4858fdac845db406aefb181",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.13,
+ "dtype": "torch.float32",
+ "encode_s": 2.5699527263641357,
+ "dim": 1024
+}

@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "aari1995/German_Semantic_STS_V2",
+ "sha": "22912542b0ec7a7ef369837e28ffe6352a27afc9",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.99,
+ "dtype": "torch.float32",
+ "encode_s": 3.094428062438965,
+ "dim": 1024
+}

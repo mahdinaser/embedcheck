@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "Stern5497/sbert-legal-xlm-roberta-base",
+ "sha": "33a0f35961ee640665ea944ba5d5004c00d4dac4",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 25.22,
+ "dtype": "torch.float32",
+ "encode_s": 0.8140380382537842,
+ "dim": 768
+}

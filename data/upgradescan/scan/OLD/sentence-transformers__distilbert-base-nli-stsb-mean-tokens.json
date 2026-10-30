@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "sentence-transformers/distilbert-base-nli-stsb-mean-tokens",
+ "sha": "84fc3c34014de8c85cde3fece74ab56fbe9d4fce",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 11.9,
+ "dtype": "torch.float32",
+ "encode_s": 0.2640550136566162,
+ "dim": 768
+}

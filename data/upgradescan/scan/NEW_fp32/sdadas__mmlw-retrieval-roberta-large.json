@@ -1,0 +1,13 @@
+{
+ "tag": "NEW_fp32",
+ "id": "sdadas/mmlw-retrieval-roberta-large",
+ "sha": "782c6d05aa3b87be810e06d1c798e2fa666b026a",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 32.53,
+ "dtype": "torch.float32",
+ "encode_s": 3.162261486053467,
+ "dim": 1024
+}

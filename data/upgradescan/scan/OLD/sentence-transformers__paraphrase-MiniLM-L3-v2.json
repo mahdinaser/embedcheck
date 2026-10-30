@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "sentence-transformers/paraphrase-MiniLM-L3-v2",
+ "sha": "4ca70771034acceecb2e72475f72050fcdde4ddc",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 4.15,
+ "dtype": "torch.float32",
+ "encode_s": 0.040557146072387695,
+ "dim": 384
+}

@@ -1,0 +1,13 @@
+{
+ "tag": "NEW_fp32",
+ "id": "thenlper/gte-base",
+ "sha": "c078288308d8dee004ab72c6191778064285ec0c",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 9.77,
+ "dtype": "torch.float32",
+ "encode_s": 0.5166425704956055,
+ "dim": 768
+}

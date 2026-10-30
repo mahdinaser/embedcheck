@@ -1,0 +1,802 @@
+[
+ {
+  "id": "sentence-transformers/all-MiniLM-L6-v2",
+  "sha": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "downloads": 190761871,
+  "params": 22713728,
+  "remote_code": true,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "BAAI/bge-small-en-v1.5",
+  "sha": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "downloads": 53024555,
+  "params": 33360512,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "sha": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+  "downloads": 38712784,
+  "params": 117654272,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "BAAI/bge-m3",
+  "sha": "5617a9f61b028005a4858fdac845db406aefb181",
+  "downloads": 29899098,
+  "params": null,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers/all-mpnet-base-v2",
+  "sha": "e8c3b32edf5434bc2275fc9bab85f82640a19130",
+  "downloads": 18907358,
+  "params": 109486978,
+  "remote_code": true,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "nomic-ai/nomic-embed-text-v1.5",
+  "sha": "e9b6763023c676ca8431644204f50c2b100d9aab",
+  "downloads": 12203372,
+  "params": 136731648,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "BAAI/bge-large-en-v1.5",
+  "sha": "d4aa6901d3a41ba39fb536a557fa166f842b0e09",
+  "downloads": 9645824,
+  "params": 335142400,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "intfloat/multilingual-e5-small",
+  "sha": "614241f622f53c4eeff9890bdc4f31cfecc418b3",
+  "downloads": 9296446,
+  "params": 117654272,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+  "sha": "4328cf26390c98c5e3c738b4460a05b95f4911f5",
+  "downloads": 8821062,
+  "params": 278044162,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "BAAI/bge-base-en-v1.5",
+  "sha": "a5beb1e3e68b9ab74eb54cfd186867f64f240e1a",
+  "downloads": 8357412,
+  "params": 109482752,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "Qwen/Qwen3-Embedding-0.6B",
+  "sha": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+  "downloads": 8266249,
+  "params": 595776512,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "intfloat/multilingual-e5-large",
+  "sha": "3d7cfbdacd47fdda877c5cd8a79fbcc4f2a574f3",
+  "downloads": 6497882,
+  "params": 559890946,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "ibm-granite/granite-embedding-small-english-r2",
+  "sha": "2ab6fa8ea2d674564defd37171ae19079b864b33",
+  "downloads": 6325282,
+  "params": 47662464,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "intfloat/multilingual-e5-base",
+  "sha": "d128750597153bb5987e10b1c3493a34e5a4502a",
+  "downloads": 5415958,
+  "params": 278044162,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "datasocietyco/bge-base-en-v1.5-course-recommender-v5",
+  "sha": "2b069eed51ce7bc2beeaa7e3eea1a01c48ef3d29",
+  "downloads": 4069611,
+  "params": 109482240,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers/all-distilroberta-v1",
+  "sha": "842eaed40bee4d61673a81c92d5689a8fed7a09f",
+  "downloads": 2766604,
+  "params": 82118914,
+  "remote_code": true,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "Snowflake/snowflake-arctic-embed-l-v2.0",
+  "sha": "ac6544c8a46e00af67e330e85a9028c66b8cfd9a",
+  "downloads": 2672047,
+  "params": 567754752,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers/all-MiniLM-L12-v2",
+  "sha": "a50ef00143b4d5391434df20ae11632588ac25be",
+  "downloads": 2573254,
+  "params": 33360512,
+  "remote_code": true,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "mixedbread-ai/mxbai-embed-large-v1",
+  "sha": "b33106f585b9ce46904ad7443a3b52b7a63e231c",
+  "downloads": 2162130,
+  "params": 335141888,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "Alibaba-NLP/gte-large-en-v1.5",
+  "sha": "104333d6af6f97649377c2afbde10a7704870c7b",
+  "downloads": 1874990,
+  "params": 434139136,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "intfloat/multilingual-e5-large-instruct",
+  "sha": "274baa43b0e13e37fafa6428dbc7938e62e5c439",
+  "downloads": 1746071,
+  "params": 559890432,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "jinaai/jina-embeddings-v3",
+  "sha": "ab036b023d30b4d1138c4c3bfa9f0c445ab455d6",
+  "downloads": 1615753,
+  "params": 572310396,
+  "remote_code": true,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "sentence-transformers/multi-qa-mpnet-base-dot-v1",
+  "sha": "17997f24dca0df1a4fed68894fb0e1e133e60482",
+  "downloads": 1541366,
+  "params": 109486978,
+  "remote_code": true,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers/distiluse-base-multilingual-cased-v1",
+  "sha": "826fee3d516ebb14987355af373f5b69101c7006",
+  "downloads": 1508735,
+  "params": 134734080,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers/paraphrase-MiniLM-L6-v2",
+  "sha": "c9a2bfebc254878aee8c3aca9e6844d5bbb102d1",
+  "downloads": 1413270,
+  "params": 22713728,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers/paraphrase-mpnet-base-v2",
+  "sha": "6cc9279c672dc57f94445ef259b28a1b736fec8f",
+  "downloads": 1318442,
+  "params": 109486978,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "nomic-ai/nomic-embed-text-v1",
+  "sha": "3ac47f125a41961d13b397d0332866be2f9152e1",
+  "downloads": 1247935,
+  "params": 136731648,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "intfloat/e5-small-v2",
+  "sha": "ffb93f3bd4047442299a41ebb6fa998a38507c52",
+  "downloads": 1228036,
+  "params": 33360512,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "jinaai/jina-embeddings-v2-small-en",
+  "sha": "44e7d1d6caec8c883c2d4b207588504d519788d0",
+  "downloads": 1179741,
+  "params": 32690688,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "NeuML/pubmedbert-base-embeddings",
+  "sha": "b79526d6ef3645e0df4530322e266f24c829f5ef",
+  "downloads": 1076755,
+  "params": 109482240,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "WhereIsAI/UAE-Large-V1",
+  "sha": "9c9b2c999b3350cfb3171ed429320668e39b00b8",
+  "downloads": 1073966,
+  "params": 335141888,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "thenlper/gte-small",
+  "sha": "17e1f347d17fe144873b1201da91788898c639cd",
+  "downloads": 1040006,
+  "params": 33360512,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "jhgan/ko-sroberta-multitask",
+  "sha": "8fca7c9c98c26599be0e14b9916b11a756a26f19",
+  "downloads": 1028196,
+  "params": 110618626,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "intfloat/e5-base-v2",
+  "sha": "f52bf8ec8c7124536f0efb74aca902b2995e5bcd",
+  "downloads": 1007301,
+  "params": 109482752,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "Alibaba-NLP/gte-multilingual-base",
+  "sha": "9bbca17d9273fd0d03d5725c7a4b0f6b45142062",
+  "downloads": 992251,
+  "params": 305369089,
+  "remote_code": true,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "intfloat/e5-base",
+  "sha": "b533fe4636f4a2507c08ddab40644d20b0006d6a",
+  "downloads": 946985,
+  "params": 109482752,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "shibing624/text2vec-base-chinese",
+  "sha": "183bb99aa7af74355fb58d16edf8c13ae7c5433e",
+  "downloads": 925314,
+  "params": 102268160,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers-testing/stsb-bert-tiny-safetensors",
+  "sha": "f3cb857cba53019a20df283396bcca179cf051a4",
+  "downloads": 924455,
+  "params": 4385920,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "nomic-ai/nomic-embed-text-v2-moe",
+  "sha": "1066b6599d099fbb93dfcb64f9c37a7c9e503e85",
+  "downloads": 920736,
+  "params": 475292928,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers/distiluse-base-multilingual-cased-v2",
+  "sha": "bfe45d0732ca50787611c0fe107ba278c7f3f889",
+  "downloads": 892337,
+  "params": 134734080,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "deepvk/USER2-base",
+  "sha": "94bbff0cc696f26dc93b275fc874657727df0c29",
+  "downloads": 845562,
+  "params": 149014272,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "intfloat/e5-large-v2",
+  "sha": "f169b11e22de13617baa190a028a32f3493550b6",
+  "downloads": 828501,
+  "params": 335142400,
+  "remote_code": true,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "Snowflake/snowflake-arctic-embed-l",
+  "sha": "d8fb21ca8d905d2832ee8b96c894d3298964346b",
+  "downloads": 787959,
+  "params": 334092288,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers/LaBSE",
+  "sha": "836121a0533e5664b21c7aacc5d22951f2b8b25b",
+  "downloads": 670928,
+  "params": 470927360,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "bkai-foundation-models/vietnamese-bi-encoder",
+  "sha": "84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0",
+  "downloads": 667667,
+  "params": 134998272,
+  "remote_code": true,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers/paraphrase-MiniLM-L3-v2",
+  "sha": "4ca70771034acceecb2e72475f72050fcdde4ddc",
+  "downloads": 624964,
+  "params": 17390336,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "ai-forever/FRIDA",
+  "sha": "850455b605544a944739b25f81ddf812b6e3d0d5",
+  "downloads": 620352,
+  "params": 823401216,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "thenlper/gte-large",
+  "sha": "4bef63f39fcc5e2d6b0aae83089f307af4970164",
+  "downloads": 615141,
+  "params": 335142400,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+  "sha": "b207367332321f8e44f96e224ef15bc607f4dbf0",
+  "downloads": 607654,
+  "params": 22713728,
+  "remote_code": true,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers/all-roberta-large-v1",
+  "sha": "cf74d8acd4f198de950bf004b262e6accfed5d2c",
+  "downloads": 583539,
+  "params": 355360258,
+  "remote_code": true,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers/paraphrase-albert-small-v2",
+  "sha": "9d490b476eb5291c7885bb6d4961318740493cf2",
+  "downloads": 575951,
+  "params": 11684096,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers/nli-mpnet-base-v2",
+  "sha": "c2f4dd9a1dc4337c28cfbd650433f761bb304c50",
+  "downloads": 573296,
+  "params": 109486978,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "nlpai-lab/KURE-v1",
+  "sha": "8b418a58414668e75532ed045c22d9ca018ae2b2",
+  "downloads": 527500,
+  "params": 567754752,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "sentence-transformers/msmarco-bert-base-dot-v5",
+  "sha": "dbf04e3911e5b11c887fe563d3f2479f81c4415f",
+  "downloads": 510896,
+  "params": 109482752,
+  "remote_code": true,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "Alibaba-NLP/gte-base-en-v1.5",
+  "sha": "a829fd0e060bb84554da0dfd354d0de0f7712b7f",
+  "downloads": 505078,
+  "params": 136776192,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "TimKond/S-PubMedBert-MedQuAD",
+  "sha": "b73d84decb1da6bd4c1cf084a1b6c6602157d267",
+  "downloads": 440762,
+  "params": 109482752,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "FremyCompany/BioLORD-2023",
+  "sha": "167aab527b238a50ca65224e6319215d2ff4fc9f",
+  "downloads": 402634,
+  "params": 109486978,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "Snowflake/snowflake-arctic-embed-xs",
+  "sha": "d8c86521100d3556476a063fc2342036d45c106f",
+  "downloads": 395910,
+  "params": 22565376,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "emrecan/bert-base-turkish-cased-mean-nli-stsb-tr",
+  "sha": "7e10e2fbd7627fd0228eb2dbdc9e9da264442bbe",
+  "downloads": 392441,
+  "params": 110617856,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "Snowflake/snowflake-arctic-embed-m",
+  "sha": "fc74610d18462d218e312aa986ec5c8a75a98152",
+  "downloads": 382785,
+  "params": 108891648,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "mixedbread-ai/deepset-mxbai-embed-de-large-v1",
+  "sha": "cbbec43ebdf8b2d8304d3093781eee56a8cdfb69",
+  "downloads": 353780,
+  "params": 487066624,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "jinaai/jina-embeddings-v2-base-en",
+  "sha": "322d4d7e2f35e84137961a65af894fda0385eb7a",
+  "downloads": 351491,
+  "params": 137368320,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "unsloth/bge-small-en-v1.5",
+  "sha": "7382f1122c10708a1faa0bbe548674a14b1ffe7e",
+  "downloads": 349170,
+  "params": 33360512,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "naver/splade-cocondenser-selfdistil",
+  "sha": "31f3eb4b5aae648cde974db3b7b44bf2d095106b",
+  "downloads": 344571,
+  "params": null,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "BAAI/bge-large-zh-v1.5",
+  "sha": "79e7739b6ab944e86d6171e44d24c997fc1e0116",
+  "downloads": 339848,
+  "params": null,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "cointegrated/rubert-tiny2",
+  "sha": "e8ed3b0c8bbf4fb6984c3de043bf7d2f4e5969ae",
+  "downloads": 330509,
+  "params": 29378550,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "naver/efficient-splade-VI-BT-large-doc",
+  "sha": "6c9c7bef392354d060713055837e49616faa5fa2",
+  "downloads": 319840,
+  "params": null,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "BAAI/bge-base-zh-v1.5",
+  "sha": "f03589ceff5aac7111bd60cfc7d497ca17ecac65",
+  "downloads": 308184,
+  "params": null,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "perplexity-ai/pplx-embed-v1-0.6b",
+  "sha": "2c4d510dd4a732063c31a0f70193e35067b51fd8",
+  "downloads": 297552,
+  "params": 596049920,
+  "remote_code": true,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "voyageai/voyage-4-nano",
+  "sha": "5fb34e870f49f19e79c94d5e118f5ee730133279",
+  "downloads": 291650,
+  "params": 346451968,
+  "remote_code": true,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "deepvk/USER-bge-m3",
+  "sha": "0cc6cfe48e260fb0474c753087a69369e88709ae",
+  "downloads": 286784,
+  "params": 359026688,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers/bert-base-nli-mean-tokens",
+  "sha": "160a52b38a51ae87295ec3eabcf11755e5d27a8d",
+  "downloads": 282563,
+  "params": 109482752,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers/msmarco-MiniLM-L6-v3",
+  "sha": "fea93b3df3924e5649a4e322c345f951239d2c13",
+  "downloads": 275397,
+  "params": 22713728,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "google/embeddinggemma-2",
+  "sha": "26711154b641697c443124e316f3d21587f9ff5d",
+  "downloads": 256852,
+  "params": 744371512,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "hkunlp/instructor-large",
+  "sha": "54e5ffb8d484de506e59443b07dc819fb15c7233",
+  "downloads": 248730,
+  "params": null,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers/multi-qa-MiniLM-L6-dot-v1",
+  "sha": "4151c507ffb0f2fcd311cf431f54b5fc7d097851",
+  "downloads": 248438,
+  "params": 22713728,
+  "remote_code": true,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "jinaai/jina-embeddings-v3-hf",
+  "sha": "d18862d9a48706220815554fac3ebb4dfa46fc28",
+  "downloads": 244880,
+  "params": 559364096,
+  "remote_code": true,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "redis/langcache-embed-v1",
+  "sha": "2f6ffda359ab94a9c222947bfd87ea8f85ea7e0a",
+  "downloads": 240872,
+  "params": 149014272,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sdadas/mmlw-retrieval-roberta-large",
+  "sha": "782c6d05aa3b87be810e06d1c798e2fa666b026a",
+  "downloads": 235600,
+  "params": 434961408,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "TaylorAI/bge-micro-v2",
+  "sha": "3edf6d7de0faa426b09780416fe61009f26ae589",
+  "downloads": 231325,
+  "params": 17389824,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "naver/splade-cocondenser-ensembledistil",
+  "sha": "49cf4c7b0db5b870a401ddf5e2669993ef3699c7",
+  "downloads": 230877,
+  "params": null,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "imvladikon/sentence-transformers-alephbert",
+  "sha": "547db5a2028766922251e5e2be6a973674ee0c07",
+  "downloads": 205005,
+  "params": null,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "ibm-granite/granite-embedding-125m-english",
+  "sha": "4ab61ffd423be45cd932b21a7c696063d82bf45f",
+  "downloads": 204591,
+  "params": 124645632,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "Stern5497/sbert-legal-xlm-roberta-base",
+  "sha": "33a0f35961ee640665ea944ba5d5004c00d4dac4",
+  "downloads": 200454,
+  "params": null,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "dragonkue/snowflake-arctic-embed-l-v2.0-ko",
+  "sha": "55ec6e9358a56d56af759bc8372e970caf8c305f",
+  "downloads": 188817,
+  "params": 567754752,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "microsoft/harrier-oss-v1-0.6b",
+  "sha": "f9b9dc8d367d443f2479d27aa5d8d2850c0774ee",
+  "downloads": 186332,
+  "params": 596049920,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "sentence-transformers/msmarco-distilbert-base-tas-b",
+  "sha": "b12d9352e776979147078a8975a4885042984fd1",
+  "downloads": 182617,
+  "params": 66362880,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "mixedbread-ai/mxbai-embed-2d-large-v1",
+  "sha": "416c45d154ee4e435b6d19f6bd54440f38a12ee9",
+  "downloads": 180832,
+  "params": 335141888,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "hunkim/sentence-transformer-klue",
+  "sha": "02257b1fdd65e61861456ece23700b1d14b79d32",
+  "downloads": 170093,
+  "params": null,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "joe32140/ModernBERT-base-msmarco",
+  "sha": "6f3513c9f2bbd7cd5173c06b3c23f2cacaef702b",
+  "downloads": 168200,
+  "params": 149014272,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "sentence-transformers/msmarco-MiniLM-L12-cos-v5",
+  "sha": "09660d808c6038205655b469ac62c39fe7288ed4",
+  "downloads": 163855,
+  "params": 33360512,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "jinaai/jina-embeddings-v2-base-code",
+  "sha": "516f4baf13dec4ddddda8631e019b5737c8bc250",
+  "downloads": 162027,
+  "params": 160869120,
+  "remote_code": false,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "jinaai/jina-clip-v1",
+  "sha": "ceb3e44ca4d6eceaa4f3fb58b1c1a5748b3f29b6",
+  "downloads": 153515,
+  "params": 222672128,
+  "remote_code": true,
+  "pipeline_tag": "feature-extraction"
+ },
+ {
+  "id": "sentence-transformers/distilbert-base-nli-stsb-mean-tokens",
+  "sha": "84fc3c34014de8c85cde3fece74ab56fbe9d4fce",
+  "downloads": 152505,
+  "params": 66362880,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "thenlper/gte-base",
+  "sha": "c078288308d8dee004ab72c6191778064285ec0c",
+  "downloads": 151504,
+  "params": 109482752,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "gmunkhtur/paraphrase-multilingual-minilm-l12-v3-mn",
+  "sha": "4210ddc1014e15be6a642ec31750f64774ca4681",
+  "downloads": 145822,
+  "params": 117653760,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "Alibaba-NLP/gte-modernbert-base",
+  "sha": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+  "downloads": 144959,
+  "params": 149014272,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "pritamdeka/S-PubMedBert-MS-MARCO",
+  "sha": "96786c7024f95c5aac7f2b9a18086c7b97b23036",
+  "downloads": 141428,
+  "params": null,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "aari1995/German_Semantic_STS_V2",
+  "sha": "22912542b0ec7a7ef369837e28ffe6352a27afc9",
+  "downloads": 135604,
+  "params": 335736320,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ },
+ {
+  "id": "intfloat/e5-large",
+  "sha": "4dc6d853a804b9c8886ede6dda8a073b7dc08a81",
+  "downloads": 133051,
+  "params": 335142400,
+  "remote_code": false,
+  "pipeline_tag": "sentence-similarity"
+ }
+]

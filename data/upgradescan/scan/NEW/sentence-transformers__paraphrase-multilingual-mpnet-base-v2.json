@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+ "sha": "4328cf26390c98c5e3c738b4460a05b95f4911f5",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 2.45,
+ "dtype": "torch.float32",
+ "encode_s": 0.7125475406646729,
+ "dim": 768
+}

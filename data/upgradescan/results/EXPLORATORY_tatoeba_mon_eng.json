@@ -1,0 +1,26 @@
+[
+ {
+  "id": "gmunkhtur/paraphrase-multilingual-minilm-l12-v3-mn",
+  "n_pairs": 440,
+  "source": "mteb/tatoeba-bitext-mining mon-eng test",
+  "P@1_OLD": 0.00909090909090909,
+  "P@1_NEW": 0.015909090909090907,
+  "P@1_cross_NEWmon_OLDeng": 0.006818181818181818,
+  "unk_rate_mon_OLD": 0.0,
+  "unk_rate_mon_NEW": 0.42781020045673684,
+  "eng_side_equal": false,
+  "mon_side_equal": false
+ },
+ {
+  "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "n_pairs": 440,
+  "source": "mteb/tatoeba-bitext-mining mon-eng test",
+  "P@1_OLD": 0.9613636363636363,
+  "P@1_NEW": 0.9613636363636363,
+  "P@1_cross_NEWmon_OLDeng": 0.9613636363636363,
+  "unk_rate_mon_OLD": 0.0,
+  "unk_rate_mon_NEW": 0.0,
+  "eng_side_equal": true,
+  "mon_side_equal": true
+ }
+]

@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "intfloat/e5-large-v2",
+ "sha": "f169b11e22de13617baa190a028a32f3493550b6",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 1.09,
+ "dtype": "torch.float32",
+ "encode_s": 1.9423842430114746,
+ "dim": 1024
+}

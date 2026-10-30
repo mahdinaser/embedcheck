@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "BAAI/bge-large-zh-v1.5",
+ "sha": "79e7739b6ab944e86d6171e44d24c997fc1e0116",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 41.36,
+ "dtype": "torch.float32",
+ "encode_s": 4.392152786254883,
+ "dim": 1024
+}

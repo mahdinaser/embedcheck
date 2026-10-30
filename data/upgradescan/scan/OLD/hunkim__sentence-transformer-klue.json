@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "hunkim/sentence-transformer-klue",
+ "sha": "02257b1fdd65e61861456ece23700b1d14b79d32",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 31.27,
+ "dtype": "torch.float32",
+ "encode_s": 1.3009936809539795,
+ "dim": 768
+}

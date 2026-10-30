@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "redis/langcache-embed-v1",
+ "sha": "2f6ffda359ab94a9c222947bfd87ea8f85ea7e0a",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 25.6,
+ "dtype": "torch.float32",
+ "encode_s": 0.754610538482666,
+ "dim": 768
+}

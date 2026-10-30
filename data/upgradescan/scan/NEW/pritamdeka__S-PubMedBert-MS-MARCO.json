@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "pritamdeka/S-PubMedBert-MS-MARCO",
+ "sha": "96786c7024f95c5aac7f2b9a18086c7b97b23036",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.73,
+ "dtype": "torch.float32",
+ "encode_s": 0.6577341556549072,
+ "dim": 768
+}

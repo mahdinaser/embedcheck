@@ -1,0 +1,4 @@
+run_all.sh stopped after OLD at 2026-10-27 07:19:20; continue_order.sh started (waits for OLD pid 1020)
+2026-10-27 12:30:02 continue_order.sh replaced by continue_order2.sh (adds EXPLORATORY NEW_fp32 after primary, per chat msg #21); embed NEW pid 33299 untouched
+2026-10-27 12:43:56 continue_order2.sh replaced by resume_all.sh (resumable embeds per chat msg #23); embed NEW pid 33299 untouched
+2026-10-27 16:02:14 order per msg #26: short NEW models before mxbai; mxbai only if it can finish before 00:30; qwen3 NEW after PRIMARY. handoff_after_gte_base.sh -> resume_all.sh

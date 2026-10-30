@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "microsoft/harrier-oss-v1-0.6b",
+ "sha": "f9b9dc8d367d443f2479d27aa5d8d2850c0774ee",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 41.06,
+ "dtype": "torch.bfloat16",
+ "encode_s": 15.830396890640259,
+ "dim": 1024
+}

@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "emrecan/bert-base-turkish-cased-mean-nli-stsb-tr",
+ "sha": "7e10e2fbd7627fd0228eb2dbdc9e9da264442bbe",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 13.76,
+ "dtype": "torch.float32",
+ "encode_s": 1.0196971893310547,
+ "dim": 768
+}

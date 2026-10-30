@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "gmunkhtur/paraphrase-multilingual-minilm-l12-v3-mn",
+ "sha": "4210ddc1014e15be6a642ec31750f64774ca4681",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.98,
+ "dtype": "torch.float32",
+ "encode_s": 0.13436293601989746,
+ "dim": 384
+}

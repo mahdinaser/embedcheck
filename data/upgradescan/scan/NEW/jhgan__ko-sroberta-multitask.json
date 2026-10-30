@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "jhgan/ko-sroberta-multitask",
+ "sha": "8fca7c9c98c26599be0e14b9916b11a756a26f19",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.74,
+ "dtype": "torch.float32",
+ "encode_s": 1.1049656867980957,
+ "dim": 768
+}

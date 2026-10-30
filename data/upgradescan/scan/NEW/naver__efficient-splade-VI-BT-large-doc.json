@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "naver/efficient-splade-VI-BT-large-doc",
+ "sha": "6c9c7bef392354d060713055837e49616faa5fa2",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 12.37,
+ "dtype": "torch.float32",
+ "encode_s": 0.2581202983856201,
+ "dim": 768
+}

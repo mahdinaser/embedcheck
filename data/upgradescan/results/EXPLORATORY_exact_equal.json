@@ -1,0 +1,406 @@
+{
+ "scan": [
+  {
+   "id": "sentence-transformers/all-MiniLM-L6-v2",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "BAAI/bge-small-en-v1.5",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "BAAI/bge-m3",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/all-mpnet-base-v2",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "BAAI/bge-large-en-v1.5",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "intfloat/multilingual-e5-small",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "BAAI/bge-base-en-v1.5",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "intfloat/multilingual-e5-large",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "intfloat/multilingual-e5-base",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "datasocietyco/bge-base-en-v1.5-course-recommender-v5",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/all-distilroberta-v1",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "Snowflake/snowflake-arctic-embed-l-v2.0",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/multi-qa-mpnet-base-dot-v1",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/distiluse-base-multilingual-cased-v1",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/paraphrase-MiniLM-L6-v2",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/paraphrase-mpnet-base-v2",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "intfloat/e5-small-v2",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "NeuML/pubmedbert-base-embeddings",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "WhereIsAI/UAE-Large-V1",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "jhgan/ko-sroberta-multitask",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "intfloat/e5-base-v2",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "intfloat/e5-base",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "shibing624/text2vec-base-chinese",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers-testing/stsb-bert-tiny-safetensors",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/distiluse-base-multilingual-cased-v2",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "deepvk/USER2-base",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "intfloat/e5-large-v2",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "Snowflake/snowflake-arctic-embed-l",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/LaBSE",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "bkai-foundation-models/vietnamese-bi-encoder",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/paraphrase-MiniLM-L3-v2",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "ai-forever/FRIDA",
+   "equal": false,
+   "max_abs_diff": 6.51925802230835e-08
+  },
+  {
+   "id": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/all-roberta-large-v1",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/paraphrase-albert-small-v2",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/nli-mpnet-base-v2",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "nlpai-lab/KURE-v1",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/msmarco-bert-base-dot-v5",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "TimKond/S-PubMedBert-MedQuAD",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "FremyCompany/BioLORD-2023",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "Snowflake/snowflake-arctic-embed-xs",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "emrecan/bert-base-turkish-cased-mean-nli-stsb-tr",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "Snowflake/snowflake-arctic-embed-m",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "unsloth/bge-small-en-v1.5",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "BAAI/bge-large-zh-v1.5",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "cointegrated/rubert-tiny2",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "BAAI/bge-base-zh-v1.5",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "deepvk/USER-bge-m3",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/bert-base-nli-mean-tokens",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/msmarco-MiniLM-L6-v3",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "hkunlp/instructor-large",
+   "equal": false,
+   "max_abs_diff": 4.470348358154297e-08
+  },
+  {
+   "id": "sentence-transformers/multi-qa-MiniLM-L6-dot-v1",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "redis/langcache-embed-v1",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "TaylorAI/bge-micro-v2",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "imvladikon/sentence-transformers-alephbert",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "Stern5497/sbert-legal-xlm-roberta-base",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "dragonkue/snowflake-arctic-embed-l-v2.0-ko",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/msmarco-distilbert-base-tas-b",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "hunkim/sentence-transformer-klue",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "joe32140/ModernBERT-base-msmarco",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/msmarco-MiniLM-L12-cos-v5",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "sentence-transformers/distilbert-base-nli-stsb-mean-tokens",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "pritamdeka/S-PubMedBert-MS-MARCO",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "aari1995/German_Semantic_STS_V2",
+   "equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "id": "intfloat/e5-large",
+   "equal": true,
+   "max_abs_diff": 0.0
+  }
+ ],
+ "scifact": [
+  {
+   "model": "MiniLM-L6",
+   "Q_equal": true,
+   "D_equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "model": "mpnet-base",
+   "Q_equal": true,
+   "D_equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "model": "multiqa-MiniLM",
+   "Q_equal": true,
+   "D_equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "model": "para-multi-MiniLM",
+   "Q_equal": true,
+   "D_equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "model": "bge-small",
+   "Q_equal": true,
+   "D_equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "model": "bge-base",
+   "Q_equal": true,
+   "D_equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "model": "e5-small-v2",
+   "Q_equal": true,
+   "D_equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "model": "e5-base-v2",
+   "Q_equal": true,
+   "D_equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "model": "me5-small",
+   "Q_equal": true,
+   "D_equal": true,
+   "max_abs_diff": 0.0
+  },
+  {
+   "model": "arctic-s",
+   "Q_equal": true,
+   "D_equal": true,
+   "max_abs_diff": 0.0
+  }
+ ]
+}

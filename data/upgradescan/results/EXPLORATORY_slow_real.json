@@ -1,0 +1,281 @@
+[
+ {
+  "id": "thenlper/gte-small",
+  "OLD_1t": {
+   "dps": 4.089,
+   "rss": 919.6
+  },
+  "NEW_1t": {
+   "dps": 0.469,
+   "rss": 728.6
+  },
+  "NEW_fp32_1t": {
+   "dps": 3.863,
+   "rss": 939.5
+  },
+  "OLD_4t": {
+   "dps": 8.924,
+   "rss": 914.9
+  },
+  "NEW_4t": {
+   "dps": 1.339,
+   "rss": 732.4
+  },
+  "NEW_fp32_4t": {
+   "dps": 8.792,
+   "rss": 958.9
+  }
+ },
+ {
+  "id": "ibm-granite/granite-embedding-small-english-r2",
+  "OLD_1t": {
+   "dps": 3.084,
+   "rss": 1487.5
+  },
+  "NEW_1t": {
+   "dps": 0.426,
+   "rss": 934.3
+  },
+  "NEW_fp32_1t": {
+   "dps": 2.981,
+   "rss": 1320.7
+  },
+  "OLD_4t": {
+   "dps": 6.338,
+   "rss": 1375.5
+  },
+  "NEW_4t": {
+   "dps": 1.154,
+   "rss": 949.2
+  },
+  "NEW_fp32_4t": {
+   "dps": 6.386,
+   "rss": 1327.5
+  }
+ },
+ {
+  "id": "thenlper/gte-base",
+  "OLD_1t": {
+   "dps": 1.296,
+   "rss": 1485.0
+  },
+  "NEW_1t": {
+   "dps": 0.138,
+   "rss": 983.4
+  },
+  "NEW_fp32_1t": {
+   "dps": 1.311,
+   "rss": 1455.8
+  },
+  "OLD_4t": {
+   "dps": 3.009,
+   "rss": 1467.5
+  },
+  "NEW_4t": {
+   "dps": 0.38,
+   "rss": 990.8
+  },
+  "NEW_fp32_4t": {
+   "dps": 3.0,
+   "rss": 1437.8
+  }
+ },
+ {
+  "id": "ibm-granite/granite-embedding-125m-english",
+  "OLD_1t": {
+   "dps": 1.319,
+   "rss": 1499.2
+  },
+  "NEW_1t": {
+   "dps": 0.139,
+   "rss": 1025.2
+  },
+  "NEW_fp32_1t": {
+   "dps": 1.35,
+   "rss": 1505.6
+  },
+  "OLD_4t": {
+   "dps": 2.965,
+   "rss": 1536.4
+  },
+  "NEW_4t": {
+   "dps": 0.396,
+   "rss": 1029.6
+  },
+  "NEW_fp32_4t": {
+   "dps": 2.966,
+   "rss": 1537.6
+  }
+ },
+ {
+  "id": "Alibaba-NLP/gte-modernbert-base",
+  "OLD_1t": {
+   "dps": 0.906,
+   "rss": 1728.4
+  },
+  "NEW_1t": {
+   "dps": 0.121,
+   "rss": 1207.1
+  },
+  "NEW_fp32_1t": {
+   "dps": 0.895,
+   "rss": 1648.8
+  },
+  "OLD_4t": {
+   "dps": 1.913,
+   "rss": 1738.5
+  },
+  "NEW_4t": {
+   "dps": 0.312,
+   "rss": 1220.8
+  },
+  "NEW_fp32_4t": {
+   "dps": 1.904,
+   "rss": 1659.0
+  }
+ },
+ {
+  "id": "mixedbread-ai/mxbai-embed-2d-large-v1",
+  "OLD_1t": {
+   "dps": 0.375,
+   "rss": 2427.5
+  },
+  "NEW_1t": "timeout or crash (limit 3600s)",
+  "NEW_fp32_1t": {
+   "dps": 0.375,
+   "rss": 2439.4
+  },
+  "OLD_4t": {
+   "dps": 0.802,
+   "rss": 2401.4
+  },
+  "NEW_4t": {
+   "dps": 0.106,
+   "rss": 1502.2
+  },
+  "NEW_fp32_4t": {
+   "dps": 0.782,
+   "rss": 2437.8
+  }
+ },
+ {
+  "id": "mixedbread-ai/mxbai-embed-large-v1",
+  "OLD_1t": {
+   "dps": 0.376,
+   "rss": 2540.4
+  },
+  "NEW_1t": "timeout or crash (limit 3600s)",
+  "NEW_fp32_1t": {
+   "dps": 0.327,
+   "rss": 2441.7
+  },
+  "OLD_4t": {
+   "dps": 0.662,
+   "rss": 2400.7
+  },
+  "NEW_4t": {
+   "dps": 0.1,
+   "rss": 1510.4
+  },
+  "NEW_fp32_4t": {
+   "dps": 0.699,
+   "rss": 2435.2
+  }
+ },
+ {
+  "id": "thenlper/gte-large",
+  "OLD_1t": {
+   "dps": 0.33,
+   "rss": 2400.6
+  },
+  "NEW_1t": "timeout or crash (limit 3600s)",
+  "NEW_fp32_1t": {
+   "dps": 0.331,
+   "rss": 2440.6
+  },
+  "OLD_4t": {
+   "dps": 0.698,
+   "rss": 2413.5
+  },
+  "NEW_4t": {
+   "dps": 0.104,
+   "rss": 1504.8
+  },
+  "NEW_fp32_4t": {
+   "dps": 0.702,
+   "rss": 2431.3
+  }
+ },
+ {
+  "id": "mixedbread-ai/deepset-mxbai-embed-de-large-v1",
+  "OLD_1t": {
+   "dps": 0.312,
+   "rss": 3270.6
+  },
+  "NEW_1t": "timeout or crash (limit 3600s)",
+  "NEW_fp32_1t": {
+   "dps": 0.309,
+   "rss": 3309.0
+  },
+  "OLD_4t": {
+   "dps": 0.669,
+   "rss": 3282.9
+  },
+  "NEW_4t": {
+   "dps": 0.099,
+   "rss": 1809.0
+  },
+  "NEW_fp32_4t": {
+   "dps": 0.666,
+   "rss": 3311.7
+  }
+ },
+ {
+  "id": "intfloat/multilingual-e5-large-instruct",
+  "OLD_1t": {
+   "dps": 0.307,
+   "rss": 3707.2
+  },
+  "NEW_1t": "timeout or crash (limit 3600s)",
+  "NEW_fp32_1t": {
+   "dps": 0.313,
+   "rss": 3727.8
+  },
+  "OLD_4t": {
+   "dps": 0.658,
+   "rss": 3706.2
+  },
+  "NEW_4t": {
+   "dps": 0.098,
+   "rss": 1934.3
+  },
+  "NEW_fp32_4t": {
+   "dps": 0.664,
+   "rss": 3727.3
+  }
+ },
+ {
+  "id": "sdadas/mmlw-retrieval-roberta-large",
+  "OLD_1t": {
+   "dps": 0.284,
+   "rss": 2988.0
+  },
+  "NEW_1t": "timeout or crash (limit 3600s)",
+  "NEW_fp32_1t": {
+   "dps": 0.275,
+   "rss": 3012.1
+  },
+  "OLD_4t": {
+   "dps": 0.603,
+   "rss": 2990.9
+  },
+  "NEW_4t": {
+   "dps": 0.086,
+   "rss": 1695.2
+  },
+  "NEW_fp32_4t": {
+   "dps": 0.594,
+   "rss": 3002.8
+  }
+ }
+]

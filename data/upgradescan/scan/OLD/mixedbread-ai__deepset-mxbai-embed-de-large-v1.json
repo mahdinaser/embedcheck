@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "mixedbread-ai/deepset-mxbai-embed-de-large-v1",
+ "sha": "cbbec43ebdf8b2d8304d3093781eee56a8cdfb69",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 61.37,
+ "dtype": "torch.float32",
+ "encode_s": 2.548964500427246,
+ "dim": 1024
+}

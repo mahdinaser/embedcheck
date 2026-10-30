@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "sentence-transformers/msmarco-MiniLM-L12-cos-v5",
+ "sha": "09660d808c6038205655b469ac62c39fe7288ed4",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 7.25,
+ "dtype": "torch.float32",
+ "encode_s": 0.1481468677520752,
+ "dim": 384
+}

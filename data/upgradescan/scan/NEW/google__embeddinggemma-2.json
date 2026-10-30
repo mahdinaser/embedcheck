@@ -1,0 +1,11 @@
+{
+ "tag": "NEW",
+ "id": "google/embeddinggemma-2",
+ "sha": "26711154b641697c443124e316f3d21587f9ff5d",
+ "ok": false,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "error": "ValueError: Could not load any image processor class for google/embeddinggemma-2. The model configuration resolves to the following image processor classes: pil: Gemma4ImageProcessorPil, torchvision: Gemma4ImageProcessor. None of these classes could be imported. Missing optional dependencies: torchvision, Pillow. Please install the missing dependencies or select a backend that is available in your environment.",
+ "tb_tail": "ts_from_pretrained\n    sub_processor = auto_processor_class.from_pretrained(\n                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"~/vdrift/.venv_NEW/lib/python3.12/site-packages/transformers/models/auto/image_processing_auto.py\", line 717, in from_pretrained\n    raise ValueError(_format_unavailable_image_processor_error(pretrained_model_name_or_path, mapping))\nValueError: Could not load any image processor class for google/embeddinggemma-2. The model configuration resolves to the following image processor classes: pil: Gemma4ImageProcessorPil, torchvision: Gemma4ImageProcessor. None of these classes could be imported. Missing optional dependencies: torchvision, Pillow. Please install the missing dependencies or select a backend that is available in your environment.\n"
+}

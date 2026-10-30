@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+ "sha": "b207367332321f8e44f96e224ef15bc607f4dbf0",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.67,
+ "dtype": "torch.float32",
+ "encode_s": 0.07593774795532227,
+ "dim": 384
+}

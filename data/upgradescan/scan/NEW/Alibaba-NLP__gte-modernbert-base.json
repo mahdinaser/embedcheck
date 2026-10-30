@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "Alibaba-NLP/gte-modernbert-base",
+ "sha": "e7f32e3c00f91d699e8c43b53106206bcc72bb22",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 1.15,
+ "dtype": "torch.float16",
+ "encode_s": 4.742158651351929,
+ "dim": 768
+}

@@ -1,0 +1,70 @@
+[
+ {
+  "id": "Qwen/Qwen3-Embedding-8B",
+  "why": "params=7567295488"
+ },
+ {
+  "id": "Qwen/Qwen3-Embedding-4B",
+  "why": "params=4021774336"
+ },
+ {
+  "id": "google/embeddinggemma-300m",
+  "why": "gated/private"
+ },
+ {
+  "id": "Qwen/Qwen3-VL-Embedding-8B",
+  "why": "params=8144793840"
+ },
+ {
+  "id": "jinaai/jina-embeddings-v5-omni-small",
+  "why": "params=1626268672"
+ },
+ {
+  "id": "Qwen/Qwen3-VL-Embedding-2B",
+  "why": "params=2127532032"
+ },
+ {
+  "id": "gabor-hosu/e5-mistral-7b-instruct-bnb-4bit",
+  "why": "params=7329328014"
+ },
+ {
+  "id": "nomic-ai/nomic-embed-code",
+  "why": "params=7070619136"
+ },
+ {
+  "id": "nvidia/llama-nemotron-embed-1b-v2",
+  "why": "params=1235814400"
+ },
+ {
+  "id": "nvidia/Nemotron-3-Embed-1B-BF16",
+  "why": "params=1140918272"
+ },
+ {
+  "id": "nvidia/NV-Embed-v2",
+  "why": "params=7851016192"
+ },
+ {
+  "id": "Alibaba-NLP/gte-Qwen2-1.5B-instruct",
+  "why": "params=1776197120"
+ },
+ {
+  "id": "unsloth/bge-small-en-v1.5-GGUF",
+  "why": "no_weights"
+ },
+ {
+  "id": "ChristianAzinn/mxbai-embed-large-v1-gguf",
+  "why": "no_weights"
+ },
+ {
+  "id": "leliuga/all-MiniLM-L6-v2-GGUF",
+  "why": "no_weights"
+ },
+ {
+  "id": "nvidia/Nemotron-3-Embed-8B-BF16",
+  "why": "params=7952683008"
+ },
+ {
+  "id": "second-state/All-MiniLM-L6-v2-Embedding-GGUF",
+  "why": "no_weights"
+ }
+]

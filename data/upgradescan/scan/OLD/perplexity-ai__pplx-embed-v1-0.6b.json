@@ -1,0 +1,11 @@
+{
+ "tag": "OLD",
+ "id": "perplexity-ai/pplx-embed-v1-0.6b",
+ "sha": "2c4d510dd4a732063c31a0f70193e35067b51fd8",
+ "ok": false,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "error": "ModuleNotFoundError: No module named 'transformers.models.qwen3'",
+ "tb_tail": "n_module(class_name, final_module, force_reload=force_download)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"~/vdrift/.venv_OLD/lib/python3.12/site-packages/transformers/dynamic_module_utils.py\", line 250, in get_class_in_module\n    module_spec.loader.exec_module(module)\n  File \"<frozen importlib._bootstrap_external>\", line 995, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"~/vscan/hf_cache/modules/transformers_modules/perplexity-ai/pplx-embed-v1-0.6b/2c4d510dd4a732063c31a0f70193e35067b51fd8/configuration.py\", line 1, in <module>\n    from transformers.models.qwen3.configuration_qwen3 import Qwen3Config\nModuleNotFoundError: No module named 'transformers.models.qwen3'\n"
+}

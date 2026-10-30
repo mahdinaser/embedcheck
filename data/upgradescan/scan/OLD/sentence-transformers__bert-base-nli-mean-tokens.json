@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "sentence-transformers/bert-base-nli-mean-tokens",
+ "sha": "160a52b38a51ae87295ec3eabcf11755e5d27a8d",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 14.44,
+ "dtype": "torch.float32",
+ "encode_s": 0.5245025157928467,
+ "dim": 768
+}

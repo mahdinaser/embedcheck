@@ -1,0 +1,13 @@
+{
+ "tag": "NEW_fp32",
+ "id": "ibm-granite/granite-embedding-125m-english",
+ "sha": "4ab61ffd423be45cd932b21a7c696063d82bf45f",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 9.53,
+ "dtype": "torch.float32",
+ "encode_s": 0.5677692890167236,
+ "dim": 768
+}

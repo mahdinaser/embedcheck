@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "sentence-transformers/nli-mpnet-base-v2",
+ "sha": "c2f4dd9a1dc4337c28cfbd650433f761bb304c50",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 10.84,
+ "dtype": "torch.float32",
+ "encode_s": 0.5372922420501709,
+ "dim": 768
+}

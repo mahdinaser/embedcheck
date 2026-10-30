@@ -1,0 +1,11 @@
+{
+ "tag": "NEW",
+ "id": "jinaai/jina-embeddings-v3",
+ "sha": "ab036b023d30b4d1138c4c3bfa9f0c445ab455d6",
+ "ok": false,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "error": "AttributeError: 'XLMRobertaLoRA' object has no attribute 'all_tied_weights_keys'",
+ "tb_tail": "            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"~/vdrift/.venv_NEW/lib/python3.12/site-packages/transformers/modeling_utils.py\", line 4524, in _finalize_model_loading\n    model._move_missing_keys_from_meta_to_device(\n  File \"~/vdrift/.venv_NEW/lib/python3.12/site-packages/transformers/modeling_utils.py\", line 4781, in _move_missing_keys_from_meta_to_device\n    for key in missing_keys - self.all_tied_weights_keys.keys():\n                              ^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"~/vdrift/.venv_NEW/lib/python3.12/site-packages/torch/nn/modules/module.py\", line 1972, in __getattr__\n    raise AttributeError(\nAttributeError: 'XLMRobertaLoRA' object has no attribute 'all_tied_weights_keys'. Did you mean: '_tied_weights_keys'?\n"
+}

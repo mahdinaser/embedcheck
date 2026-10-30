@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "sentence-transformers/LaBSE",
+ "sha": "836121a0533e5664b21c7aacc5d22951f2b8b25b",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 1.75,
+ "dtype": "torch.float32",
+ "encode_s": 0.6113343238830566,
+ "dim": 768
+}

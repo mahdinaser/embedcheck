@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "Qwen/Qwen3-Embedding-0.6B",
+ "sha": "97b0c614be4d77ee51c0cef4e5f07c00f9eb65b3",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 45.61,
+ "dtype": "torch.bfloat16",
+ "encode_s": 15.87411117553711,
+ "dim": 1024
+}

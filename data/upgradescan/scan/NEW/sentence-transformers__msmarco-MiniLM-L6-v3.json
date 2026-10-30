@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "sentence-transformers/msmarco-MiniLM-L6-v3",
+ "sha": "fea93b3df3924e5649a4e322c345f951239d2c13",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.65,
+ "dtype": "torch.float32",
+ "encode_s": 0.0780634880065918,
+ "dim": 384
+}

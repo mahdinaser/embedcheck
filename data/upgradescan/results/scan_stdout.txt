@@ -1,0 +1,29 @@
+status counts: {'ok': 68, 'BREAK': 10, 'fails_old_only': 8, 'SLOW': 11, 'fails_both': 2, 'DRIFT': 1}
+DTYPE changes among ok-in-both: 11
+remote_code among REGRESSED: 2 / 22 ; remote_code overall: 13 / 90
+  BREAK nomic-ai/nomic-embed-text-v1.5  AttributeError: 'NomicBertModel' object has no attribute 'get_extended_attention_mask'
+  SLOW  ibm-granite/granite-embedding-small-english-r2  cos=1.0000 ratio=7.0
+  SLOW  mixedbread-ai/mxbai-embed-large-v1  cos=1.0000 ratio=5.9
+  BREAK Alibaba-NLP/gte-large-en-v1.5  IndexError: index 140436368779056 is out of bounds for dimension 0 with size 12
+  SLOW  intfloat/multilingual-e5-large-instruct  cos=1.0000 ratio=6.2
+  BREAK jinaai/jina-embeddings-v3  AttributeError: 'XLMRobertaLoRA' object has no attribute 'all_tied_weights_keys'
+  BREAK nomic-ai/nomic-embed-text-v1  AttributeError: 'NomicBertModel' object has no attribute 'get_extended_attention_mask'
+  BREAK jinaai/jina-embeddings-v2-small-en  ModuleNotFoundError: No module named 'transformers.onnx'
+  SLOW  thenlper/gte-small  cos=1.0000 ratio=7.1
+  BREAK Alibaba-NLP/gte-multilingual-base  IndexError: index -987842539009 is out of bounds for dimension 0 with size 17
+  BREAK nomic-ai/nomic-embed-text-v2-moe  AttributeError: 'NomicBertModel' object has no attribute 'get_extended_attention_mask'
+  SLOW  thenlper/gte-large  cos=1.0000 ratio=4.6
+  BREAK Alibaba-NLP/gte-base-en-v1.5  IndexError: index 989923079 is out of bounds for dimension 0 with size 12
+  SLOW  mixedbread-ai/deepset-mxbai-embed-de-large-v1  cos=1.0000 ratio=5.2
+  BREAK jinaai/jina-embeddings-v2-base-en  ModuleNotFoundError: No module named 'transformers.onnx'
+  SLOW  sdadas/mmlw-retrieval-roberta-large  cos=1.0000 ratio=5.4
+  SLOW  ibm-granite/granite-embedding-125m-english  cos=1.0000 ratio=6.4
+  SLOW  mixedbread-ai/mxbai-embed-2d-large-v1  cos=1.0000 ratio=6.1
+  BREAK jinaai/jina-embeddings-v2-base-code  ImportError: cannot import name 'find_pruneable_heads_and_indices' from 'transformers.pytorch_utils' (~/vdrift/.venv_NEW/lib/python3.12/site-pack
+  SLOW  thenlper/gte-base  cos=1.0000 ratio=6.3
+  DRIFT gmunkhtur/paraphrase-multilingual-minilm-l12-v3-mn  cos=0.3521 ratio=0.5
+  SLOW  Alibaba-NLP/gte-modernbert-base  cos=1.0000 ratio=6.5
+
+REGRESSED 22/90 = 24.4%
+DECISION: GO
+(recovered from run_scan.log)

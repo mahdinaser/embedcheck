@@ -1,0 +1,11 @@
+{
+ "tag": "NEW",
+ "id": "jinaai/jina-embeddings-v2-base-code",
+ "sha": "516f4baf13dec4ddddda8631e019b5737c8bc250",
+ "ok": false,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "error": "ImportError: cannot import name 'find_pruneable_heads_and_indices' from 'transformers.pytorch_utils' (~/vdrift/.venv_NEW/lib/python3.12/site-packages/transformers/pytorch_utils.py)",
+ "tb_tail": "^^^^^^^^^^^^^^^^\n  File \"~/vdrift/.venv_NEW/lib/python3.12/site-packages/transformers/dynamic_module_utils.py\", line 309, in get_class_in_module\n    module_spec.loader.exec_module(module)\n  File \"<frozen importlib._bootstrap_external>\", line 995, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"~/vscan/hf_cache/modules/transformers_modules/jinaai/jina_hyphen_bert_hyphen_v2_hyphen_qk_hyphen_post_hyphen_norm/3baf9e3ac750e76e8edd3019170176884695fb94/modeling_bert.py\", line 45, in <module>\n    from transformers.pytorch_utils import (\nImportError: cannot import name 'find_pruneable_heads_and_indices' from 'transformers.pytorch_utils' (~/vdrift/.venv_NEW/lib/python3.12/site-packages/transformers/pytorch_utils.py)\n"
+}

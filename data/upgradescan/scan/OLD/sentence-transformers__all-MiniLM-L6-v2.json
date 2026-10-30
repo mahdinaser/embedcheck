@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "sentence-transformers/all-MiniLM-L6-v2",
+ "sha": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 7.67,
+ "dtype": "torch.float32",
+ "encode_s": 0.07515239715576172,
+ "dim": 384
+}

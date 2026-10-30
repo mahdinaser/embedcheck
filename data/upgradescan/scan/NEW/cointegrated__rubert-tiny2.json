@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "cointegrated/rubert-tiny2",
+ "sha": "e8ed3b0c8bbf4fb6984c3de043bf7d2f4e5969ae",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.81,
+ "dtype": "torch.float32",
+ "encode_s": 0.02520751953125,
+ "dim": 312
+}

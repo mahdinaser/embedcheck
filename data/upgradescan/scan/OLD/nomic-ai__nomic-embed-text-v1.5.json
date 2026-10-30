@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "nomic-ai/nomic-embed-text-v1.5",
+ "sha": "e9b6763023c676ca8431644204f50c2b100d9aab",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 16.73,
+ "dtype": "torch.float32",
+ "encode_s": 0.701669454574585,
+ "dim": 768
+}

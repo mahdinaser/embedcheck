@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "NeuML/pubmedbert-base-embeddings",
+ "sha": "b79526d6ef3645e0df4530322e266f24c829f5ef",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.79,
+ "dtype": "torch.float32",
+ "encode_s": 0.6522932052612305,
+ "dim": 768
+}

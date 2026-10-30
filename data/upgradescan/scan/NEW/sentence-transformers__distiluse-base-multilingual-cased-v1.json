@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "sentence-transformers/distiluse-base-multilingual-cased-v1",
+ "sha": "826fee3d516ebb14987355af373f5b69101c7006",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.97,
+ "dtype": "torch.float32",
+ "encode_s": 0.32195425033569336,
+ "dim": 512
+}

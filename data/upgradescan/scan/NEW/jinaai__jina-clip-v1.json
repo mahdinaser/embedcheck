@@ -1,0 +1,11 @@
+{
+ "tag": "NEW",
+ "id": "jinaai/jina-clip-v1",
+ "sha": "ceb3e44ca4d6eceaa4f3fb58b1c1a5748b3f29b6",
+ "ok": false,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "error": "ImportError: This modeling file requires the following packages that were not found in your environment: PIL, requests. Run `pip install PIL requests`",
+ "tb_tail": "^^^^\n  File \"~/vdrift/.venv_NEW/lib/python3.12/site-packages/transformers/dynamic_module_utils.py\", line 614, in get_class_from_dynamic_module\n    final_module = get_cached_module_file(\n                   ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"~/vdrift/.venv_NEW/lib/python3.12/site-packages/transformers/dynamic_module_utils.py\", line 439, in get_cached_module_file\n    modules_needed = check_imports(resolved_module_file)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"~/vdrift/.venv_NEW/lib/python3.12/site-packages/transformers/dynamic_module_utils.py\", line 258, in check_imports\n    raise ImportError(\nImportError: This modeling file requires the following packages that were not found in your environment: PIL, requests. Run `pip install PIL requests`\n"
+}

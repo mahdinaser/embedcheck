@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "sdadas/mmlw-retrieval-roberta-large",
+ "sha": "782c6d05aa3b87be810e06d1c798e2fa666b026a",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 33.99,
+ "dtype": "torch.float32",
+ "encode_s": 3.1572635173797607,
+ "dim": 1024
+}

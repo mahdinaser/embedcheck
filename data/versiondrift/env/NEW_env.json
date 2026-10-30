@@ -1,0 +1,90 @@
+{
+ "tag": "NEW",
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "python": "3.12.3",
+ "device": "cpu",
+ "models": {
+  "MiniLM-L6": {
+   "ok": true,
+   "max_seq_length": 256,
+   "dim": 384,
+   "sec": 223.2
+  },
+  "mpnet-base": {
+   "ok": true,
+   "max_seq_length": 384,
+   "dim": 768,
+   "sec": 2258.8
+  },
+  "multiqa-MiniLM": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 384,
+   "sec": 386.4
+  },
+  "para-multi-MiniLM": {
+   "ok": true,
+   "max_seq_length": 128,
+   "dim": 384,
+   "sec": 249.5
+  },
+  "bge-small": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 384,
+   "sec": 808.1
+  },
+  "bge-base": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 768,
+   "sec": 2465.2
+  },
+  "e5-small-v2": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 384,
+   "sec": 760.5
+  },
+  "e5-base-v2": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 768,
+   "sec": 2383.3
+  },
+  "me5-small": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 384,
+   "sec": 805.5
+  },
+  "gte-small": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 384,
+   "sec": 6772.2
+  },
+  "gte-base": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 768,
+   "sec": 22998.3
+  },
+  "nomic-v1.5": {
+   "ok": false,
+   "error": "AttributeError: 'NomicBertModel' object has no attribute 'get_extended_attention_mask'"
+  },
+  "arctic-s": {
+   "ok": true,
+   "max_seq_length": 512,
+   "dim": 384,
+   "sec": 770.1
+  },
+  "jina-v2-small": {
+   "ok": false,
+   "error": "ModuleNotFoundError: No module named 'transformers.onnx'"
+  }
+ }
+}

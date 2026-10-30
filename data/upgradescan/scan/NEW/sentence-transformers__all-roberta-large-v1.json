@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "sentence-transformers/all-roberta-large-v1",
+ "sha": "cf74d8acd4f198de950bf004b262e6accfed5d2c",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 1.08,
+ "dtype": "torch.float32",
+ "encode_s": 2.0525054931640625,
+ "dim": 1024
+}

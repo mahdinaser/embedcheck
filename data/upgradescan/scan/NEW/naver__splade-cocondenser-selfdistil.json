@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "naver/splade-cocondenser-selfdistil",
+ "sha": "31f3eb4b5aae648cde974db3b7b44bf2d095106b",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 17.98,
+ "dtype": "torch.float32",
+ "encode_s": 0.6953685283660889,
+ "dim": 768
+}

@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "jinaai/jina-embeddings-v2-small-en",
+ "sha": "44e7d1d6caec8c883c2d4b207588504d519788d0",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 5.75,
+ "dtype": "torch.float32",
+ "encode_s": 0.1119687557220459,
+ "dim": 512
+}

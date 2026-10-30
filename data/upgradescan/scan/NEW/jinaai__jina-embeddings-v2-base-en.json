@@ -1,0 +1,11 @@
+{
+ "tag": "NEW",
+ "id": "jinaai/jina-embeddings-v2-base-en",
+ "sha": "322d4d7e2f35e84137961a65af894fda0385eb7a",
+ "ok": false,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "error": "ModuleNotFoundError: No module named 'transformers.onnx'",
+ "tb_tail": "return get_class_in_module(class_name, final_module, force_reload=force_download)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"~/vdrift/.venv_NEW/lib/python3.12/site-packages/transformers/dynamic_module_utils.py\", line 309, in get_class_in_module\n    module_spec.loader.exec_module(module)\n  File \"<frozen importlib._bootstrap_external>\", line 995, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 488, in _call_with_frames_removed\n  File \"~/vscan/hf_cache/modules/transformers_modules/jinaai/jina_hyphen_bert_hyphen_implementation/f3ec4cf7de7e561007f27c9efc7148b0bd713f81/configuration_bert.py\", line 22, in <module>\n    from transformers.onnx import OnnxConfig\nModuleNotFoundError: No module named 'transformers.onnx'\n"
+}

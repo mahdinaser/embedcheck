@@ -1,0 +1,101 @@
+id,status,family,root_cause,downloads,remote_code
+sentence-transformers/all-MiniLM-L6-v2,ok,sbert,,190761871,1
+BAAI/bge-small-en-v1.5,ok,bge,,53024555,0
+sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2,ok,sbert,,38712784,0
+BAAI/bge-m3,ok,bge,,29899098,0
+sentence-transformers/all-mpnet-base-v2,ok,sbert,,18907358,1
+nomic-ai/nomic-embed-text-v1.5,BREAK,nomic,TF5 removed PreTrainedModel.get_extended_attention_mask (custom nomic code),12203372,0
+BAAI/bge-large-en-v1.5,ok,bge,,9645824,0
+intfloat/multilingual-e5-small,ok,e5,,9296446,0
+sentence-transformers/paraphrase-multilingual-mpnet-base-v2,ok,sbert,,8821062,0
+BAAI/bge-base-en-v1.5,ok,bge,,8357412,0
+Qwen/Qwen3-Embedding-0.6B,fails_old_only,qwen,ValueError: The checkpoint you are trying to load has model type `qwen3` but Transformers ,8266249,0
+intfloat/multilingual-e5-large,ok,e5,,6497882,0
+ibm-granite/granite-embedding-small-english-r2,SLOW,granite,checkpoint dtype default bfloat16 on CPU (7.0x),6325282,0
+intfloat/multilingual-e5-base,ok,e5,,5415958,0
+datasocietyco/bge-base-en-v1.5-course-recommender-v5,ok,datasocietyco,,4069611,0
+sentence-transformers/all-distilroberta-v1,ok,sbert,,2766604,1
+Snowflake/snowflake-arctic-embed-l-v2.0,ok,snowflake-arctic,,2672047,0
+sentence-transformers/all-MiniLM-L12-v2,ok,sbert,,2573254,1
+mixedbread-ai/mxbai-embed-large-v1,SLOW,mxbai,checkpoint dtype default float16 on CPU (5.9x),2162130,0
+Alibaba-NLP/gte-large-en-v1.5,BREAK,alibaba-gte,uninitialized position_ids buffer under TF5 loading (custom alibaba code),1874990,0
+intfloat/multilingual-e5-large-instruct,SLOW,e5,checkpoint dtype default float16 on CPU (6.2x),1746071,0
+jinaai/jina-embeddings-v3,BREAK,jina,TF5 loading API change: all_tied_weights_keys (custom jina v3 code),1615753,1
+sentence-transformers/multi-qa-mpnet-base-dot-v1,ok,sbert,,1541366,1
+sentence-transformers/distiluse-base-multilingual-cased-v1,ok,sbert,,1508735,0
+sentence-transformers/paraphrase-MiniLM-L6-v2,ok,sbert,,1413270,0
+sentence-transformers/paraphrase-mpnet-base-v2,ok,sbert,,1318442,0
+nomic-ai/nomic-embed-text-v1,BREAK,nomic,TF5 removed PreTrainedModel.get_extended_attention_mask (custom nomic code),1247935,0
+intfloat/e5-small-v2,ok,e5,,1228036,0
+jinaai/jina-embeddings-v2-small-en,BREAK,jina,TF5 removed transformers.onnx (custom jina v2 code),1179741,0
+NeuML/pubmedbert-base-embeddings,ok,NeuML,,1076755,0
+WhereIsAI/UAE-Large-V1,ok,WhereIsAI,,1073966,0
+thenlper/gte-small,SLOW,gte,checkpoint dtype default float16 on CPU (7.1x),1040006,0
+jhgan/ko-sroberta-multitask,ok,jhgan,,1028196,0
+intfloat/e5-base-v2,ok,e5,,1007301,0
+Alibaba-NLP/gte-multilingual-base,BREAK,alibaba-gte,uninitialized position_ids buffer under TF5 loading (custom alibaba code),992251,1
+intfloat/e5-base,ok,e5,,946985,0
+shibing624/text2vec-base-chinese,ok,shibing624,,925314,0
+sentence-transformers-testing/stsb-bert-tiny-safetensors,ok,sentence-transformers-testing,,924455,0
+nomic-ai/nomic-embed-text-v2-moe,BREAK,nomic,TF5 removed PreTrainedModel.get_extended_attention_mask (custom nomic code),920736,0
+sentence-transformers/distiluse-base-multilingual-cased-v2,ok,sbert,,892337,0
+deepvk/USER2-base,ok,deepvk,,845562,0
+intfloat/e5-large-v2,ok,e5,,828501,1
+Snowflake/snowflake-arctic-embed-l,ok,snowflake-arctic,,787959,0
+sentence-transformers/LaBSE,ok,sbert,,670928,0
+bkai-foundation-models/vietnamese-bi-encoder,ok,bkai-foundation-models,,667667,1
+sentence-transformers/paraphrase-MiniLM-L3-v2,ok,sbert,,624964,0
+ai-forever/FRIDA,ok,ai-forever,,620352,0
+thenlper/gte-large,SLOW,gte,checkpoint dtype default float16 on CPU (4.6x),615141,0
+sentence-transformers/multi-qa-MiniLM-L6-cos-v1,ok,sbert,,607654,1
+sentence-transformers/all-roberta-large-v1,ok,sbert,,583539,1
+sentence-transformers/paraphrase-albert-small-v2,ok,sbert,,575951,0
+sentence-transformers/nli-mpnet-base-v2,ok,sbert,,573296,0
+nlpai-lab/KURE-v1,ok,nlpai-lab,,527500,0
+sentence-transformers/msmarco-bert-base-dot-v5,ok,sbert,,510896,1
+Alibaba-NLP/gte-base-en-v1.5,BREAK,alibaba-gte,uninitialized position_ids buffer under TF5 loading (custom alibaba code),505078,0
+TimKond/S-PubMedBert-MedQuAD,ok,TimKond,,440762,0
+FremyCompany/BioLORD-2023,ok,FremyCompany,,402634,0
+Snowflake/snowflake-arctic-embed-xs,ok,snowflake-arctic,,395910,0
+emrecan/bert-base-turkish-cased-mean-nli-stsb-tr,ok,emrecan,,392441,0
+Snowflake/snowflake-arctic-embed-m,ok,snowflake-arctic,,382785,0
+mixedbread-ai/deepset-mxbai-embed-de-large-v1,SLOW,mxbai,checkpoint dtype default float16 on CPU (5.2x),353780,0
+jinaai/jina-embeddings-v2-base-en,BREAK,jina,TF5 removed transformers.onnx (custom jina v2 code),351491,0
+unsloth/bge-small-en-v1.5,ok,unsloth,,349170,0
+naver/splade-cocondenser-selfdistil,fails_old_only,splade,ModuleNotFoundError: No module named 'sentence_transformers.sparse_encoder',344571,0
+BAAI/bge-large-zh-v1.5,ok,bge,,339848,0
+cointegrated/rubert-tiny2,ok,cointegrated,,330509,0
+naver/efficient-splade-VI-BT-large-doc,fails_old_only,splade,"ImportError: Module ""sentence_transformers.models"" does not define a ""Router"" attribute/cl",319840,0
+BAAI/bge-base-zh-v1.5,ok,bge,,308184,0
+perplexity-ai/pplx-embed-v1-0.6b,fails_old_only,perplexity-ai,ModuleNotFoundError: No module named 'transformers.models.qwen3',297552,1
+voyageai/voyage-4-nano,fails_old_only,voyageai,ValueError: The checkpoint you are trying to load has model type `qwen3` but Transformers ,291650,1
+deepvk/USER-bge-m3,ok,deepvk,,286784,0
+sentence-transformers/bert-base-nli-mean-tokens,ok,sbert,,282563,0
+sentence-transformers/msmarco-MiniLM-L6-v3,ok,sbert,,275397,0
+google/embeddinggemma-2,fails_both,gemma,ModuleNotFoundError: No module named 'sentence_transformers.base',256852,0
+hkunlp/instructor-large,ok,hkunlp,,248730,0
+sentence-transformers/multi-qa-MiniLM-L6-dot-v1,ok,sbert,,248438,1
+jinaai/jina-embeddings-v3-hf,fails_old_only,jina,ValueError: The checkpoint you are trying to load has model type `jina_embeddings_v3` but ,244880,1
+redis/langcache-embed-v1,ok,redis,,240872,0
+sdadas/mmlw-retrieval-roberta-large,SLOW,sdadas,checkpoint dtype default float16 on CPU (5.4x),235600,0
+TaylorAI/bge-micro-v2,ok,TaylorAI,,231325,0
+naver/splade-cocondenser-ensembledistil,fails_old_only,splade,ModuleNotFoundError: No module named 'sentence_transformers.sparse_encoder',230877,0
+imvladikon/sentence-transformers-alephbert,ok,imvladikon,,205005,0
+ibm-granite/granite-embedding-125m-english,SLOW,granite,checkpoint dtype default bfloat16 on CPU (6.4x),204591,0
+Stern5497/sbert-legal-xlm-roberta-base,ok,Stern5497,,200454,0
+dragonkue/snowflake-arctic-embed-l-v2.0-ko,ok,dragonkue,,188817,0
+microsoft/harrier-oss-v1-0.6b,fails_old_only,microsoft,ValueError: The checkpoint you are trying to load has model type `qwen3` but Transformers ,186332,0
+sentence-transformers/msmarco-distilbert-base-tas-b,ok,sbert,,182617,0
+mixedbread-ai/mxbai-embed-2d-large-v1,SLOW,mxbai,checkpoint dtype default float16 on CPU (6.1x),180832,0
+hunkim/sentence-transformer-klue,ok,hunkim,,170093,0
+joe32140/ModernBERT-base-msmarco,ok,joe32140,,168200,0
+sentence-transformers/msmarco-MiniLM-L12-cos-v5,ok,sbert,,163855,0
+jinaai/jina-embeddings-v2-base-code,BREAK,jina,TF5 removed pytorch_utils.find_pruneable_heads_and_indices (custom jina code),162027,0
+jinaai/jina-clip-v1,fails_both,jina,ImportError: This modeling file requires the following packages that were not found in you,153515,1
+sentence-transformers/distilbert-base-nli-stsb-mean-tokens,ok,sbert,,152505,0
+thenlper/gte-base,SLOW,gte,checkpoint dtype default float16 on CPU (6.3x),151504,0
+gmunkhtur/paraphrase-multilingual-minilm-l12-v3-mn,DRIFT,gmunkhtur,tokenizer_config mislabels Unigram tokenizer.json as BertTokenizer; TF5 rebuilds WordPiece,145822,0
+Alibaba-NLP/gte-modernbert-base,SLOW,alibaba-gte,checkpoint dtype default float16 on CPU (6.5x),144959,0
+pritamdeka/S-PubMedBert-MS-MARCO,ok,pritamdeka,,141428,0
+aari1995/German_Semantic_STS_V2,ok,aari1995,,135604,0
+intfloat/e5-large,ok,e5,,133051,0

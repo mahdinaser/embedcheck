@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "deepvk/USER-bge-m3",
+ "sha": "0cc6cfe48e260fb0474c753087a69369e88709ae",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 42.64,
+ "dtype": "torch.float32",
+ "encode_s": 2.5731918811798096,
+ "dim": 1024
+}

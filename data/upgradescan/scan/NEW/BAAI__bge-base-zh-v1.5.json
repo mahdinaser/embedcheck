@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "BAAI/bge-base-zh-v1.5",
+ "sha": "f03589ceff5aac7111bd60cfc7d497ca17ecac65",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.79,
+ "dtype": "torch.float32",
+ "encode_s": 1.003472089767456,
+ "dim": 768
+}

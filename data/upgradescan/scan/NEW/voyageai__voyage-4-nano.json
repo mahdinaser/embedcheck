@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "voyageai/voyage-4-nano",
+ "sha": "5fb34e870f49f19e79c94d5e118f5ee730133279",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 25.77,
+ "dtype": "torch.bfloat16",
+ "encode_s": 6.292558193206787,
+ "dim": 2048
+}

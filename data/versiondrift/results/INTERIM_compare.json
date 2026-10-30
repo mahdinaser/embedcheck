@@ -1,0 +1,196 @@
+{
+ "primary": {
+  "envs": [
+   {
+    "st": "3.4.1",
+    "tf": "4.48.3",
+    "torch": "2.14.1+cpu",
+    "device": "cpu"
+   },
+   {
+    "st": "6.2.0",
+    "tf": "5.21.0",
+    "torch": "2.14.1+cpu",
+    "device": "cpu"
+   }
+  ],
+  "models": {
+   "MiniLM-L6": {
+    "status": "ok",
+    "cos_median": 1.0,
+    "cos_p01": 0.9999998807907104,
+    "cos_min": 0.9999997615814209,
+    "ndcg_old": 64.84032131749053,
+    "ndcg_new": 64.84032131749053,
+    "ndcg_cross": 64.84032131749053,
+    "delta_cross": 0.0,
+    "top10_overlap": 1.0,
+    "maxlen_old": 256,
+    "maxlen_new": 256,
+    "drifted": false
+   },
+   "mpnet-base": {
+    "status": "ok",
+    "cos_median": 1.0,
+    "cos_p01": 0.9999998807907104,
+    "cos_min": 0.9999997615814209,
+    "ndcg_old": 65.33674664679778,
+    "ndcg_new": 65.33674664679778,
+    "ndcg_cross": 65.33674664679778,
+    "delta_cross": 0.0,
+    "top10_overlap": 1.0,
+    "maxlen_old": 384,
+    "maxlen_new": 384,
+    "drifted": false
+   },
+   "multiqa-MiniLM": {
+    "status": "ok",
+    "cos_median": 1.0,
+    "cos_p01": 0.9999998807907104,
+    "cos_min": 0.9999997615814209,
+    "ndcg_old": 54.45655386006179,
+    "ndcg_new": 54.45655386006179,
+    "ndcg_cross": 54.45655386006179,
+    "delta_cross": 0.0,
+    "top10_overlap": 1.0,
+    "maxlen_old": 512,
+    "maxlen_new": 512,
+    "drifted": false
+   },
+   "para-multi-MiniLM": {
+    "status": "ok",
+    "cos_median": 1.0,
+    "cos_p01": 0.9999998211860657,
+    "cos_min": 0.9999997019767761,
+    "ndcg_old": 48.36928271507951,
+    "ndcg_new": 48.36928271507951,
+    "ndcg_cross": 48.36928271507951,
+    "delta_cross": 0.0,
+    "top10_overlap": 1.0,
+    "maxlen_old": 128,
+    "maxlen_new": 128,
+    "drifted": false
+   },
+   "bge-small": {
+    "status": "ok",
+    "cos_median": 1.0,
+    "cos_p01": 0.9999998807907104,
+    "cos_min": 0.9999997615814209,
+    "ndcg_old": 70.56756050898959,
+    "ndcg_new": 70.56756050898959,
+    "ndcg_cross": 70.56756050898959,
+    "delta_cross": 0.0,
+    "top10_overlap": 1.0,
+    "maxlen_old": 512,
+    "maxlen_new": 512,
+    "drifted": false
+   },
+   "bge-base": {
+    "status": "ok",
+    "cos_median": 1.0,
+    "cos_p01": 0.9999998807907104,
+    "cos_min": 0.9999997615814209,
+    "ndcg_old": 74.2093295207871,
+    "ndcg_new": 74.2093295207871,
+    "ndcg_cross": 74.2093295207871,
+    "delta_cross": 0.0,
+    "top10_overlap": 1.0,
+    "maxlen_old": 512,
+    "maxlen_new": 512,
+    "drifted": false
+   },
+   "e5-small-v2": {
+    "status": "ok",
+    "cos_median": 1.0,
+    "cos_p01": 0.9999998807907104,
+    "cos_min": 0.9999997615814209,
+    "ndcg_old": 69.55040667745665,
+    "ndcg_new": 69.55040667745665,
+    "ndcg_cross": 69.55040667745665,
+    "delta_cross": 0.0,
+    "top10_overlap": 1.0,
+    "maxlen_old": 512,
+    "maxlen_new": 512,
+    "drifted": false
+   },
+   "e5-base-v2": {
+    "status": "ok",
+    "cos_median": 1.0,
+    "cos_p01": 0.9999998807907104,
+    "cos_min": 0.9999997615814209,
+    "ndcg_old": 72.74452929978544,
+    "ndcg_new": 72.74452929978544,
+    "ndcg_cross": 72.74452929978544,
+    "delta_cross": 0.0,
+    "top10_overlap": 1.0,
+    "maxlen_old": 512,
+    "maxlen_new": 512,
+    "drifted": false
+   },
+   "me5-small": {
+    "status": "ok",
+    "cos_median": 1.0,
+    "cos_p01": 0.9999998807907104,
+    "cos_min": 0.9999997615814209,
+    "ndcg_old": 68.09384889358074,
+    "ndcg_new": 68.09384889358074,
+    "ndcg_cross": 68.09384889358074,
+    "delta_cross": 0.0,
+    "top10_overlap": 1.0,
+    "maxlen_old": 512,
+    "maxlen_new": 512,
+    "drifted": false
+   },
+   "gte-small": {
+    "status": "ok",
+    "cos_median": 1.0002102851867676,
+    "cos_p01": 0.9997620582580566,
+    "cos_min": 0.9994906187057495,
+    "ndcg_old": 72.11669072506704,
+    "ndcg_new": 72.1746866775106,
+    "ndcg_cross": 72.11669072506704,
+    "delta_cross": 0.0,
+    "top10_overlap": 0.9923333333333333,
+    "maxlen_old": 512,
+    "maxlen_new": 512,
+    "drifted": false
+   },
+   "gte-base": {
+    "status": "ok",
+    "cos_median": 1.0000553131103516,
+    "cos_p01": 0.9997630715370178,
+    "cos_min": 0.9973198175430298,
+    "ndcg_old": 75.43437269853463,
+    "ndcg_new": 75.46067019893873,
+    "ndcg_cross": 75.42020420726459,
+    "delta_cross": -0.014168491270041272,
+    "top10_overlap": 0.995,
+    "maxlen_old": 512,
+    "maxlen_new": 512,
+    "drifted": false
+   },
+   "nomic-v1.5": {
+    "status": "BREAK",
+    "error": "AttributeError: 'NomicBertModel' object has no attribute 'get_extended_attention_mask'"
+   },
+   "arctic-s": {
+    "status": "ok",
+    "cos_median": 1.0,
+    "cos_p01": 0.9999998807907104,
+    "cos_min": 0.9999997615814209,
+    "ndcg_old": 69.57335491181121,
+    "ndcg_new": 69.57335491181121,
+    "ndcg_cross": 69.57335491181121,
+    "delta_cross": 0.0,
+    "top10_overlap": 1.0,
+    "maxlen_old": 512,
+    "maxlen_new": 512,
+    "drifted": false
+   },
+   "jina-v2-small": {
+    "status": "BREAK",
+    "error": "ModuleNotFoundError: No module named 'transformers.onnx'"
+   }
+  }
+ }
+}

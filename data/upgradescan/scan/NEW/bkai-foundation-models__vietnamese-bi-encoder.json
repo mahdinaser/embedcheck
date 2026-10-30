@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "bkai-foundation-models/vietnamese-bi-encoder",
+ "sha": "84f9d9ada0d1a3c37557398b9ae9fcedcdf40be0",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.83,
+ "dtype": "torch.float32",
+ "encode_s": 0.910273551940918,
+ "dim": 768
+}

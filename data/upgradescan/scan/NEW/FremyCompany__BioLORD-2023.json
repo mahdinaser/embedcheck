@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "FremyCompany/BioLORD-2023",
+ "sha": "167aab527b238a50ca65224e6319215d2ff4fc9f",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.72,
+ "dtype": "torch.float32",
+ "encode_s": 0.5215413570404053,
+ "dim": 768
+}

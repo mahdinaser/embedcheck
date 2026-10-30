@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "WhereIsAI/UAE-Large-V1",
+ "sha": "9c9b2c999b3350cfb3171ed429320668e39b00b8",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 42.25,
+ "dtype": "torch.float32",
+ "encode_s": 1.9055352210998535,
+ "dim": 1024
+}

@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "TimKond/S-PubMedBert-MedQuAD",
+ "sha": "b73d84decb1da6bd4c1cf084a1b6c6602157d267",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 43.08,
+ "dtype": "torch.float32",
+ "encode_s": 0.73880934715271,
+ "dim": 768
+}

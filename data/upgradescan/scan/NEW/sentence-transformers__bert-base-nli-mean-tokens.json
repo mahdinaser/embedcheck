@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "sentence-transformers/bert-base-nli-mean-tokens",
+ "sha": "160a52b38a51ae87295ec3eabcf11755e5d27a8d",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.81,
+ "dtype": "torch.float32",
+ "encode_s": 0.5336117744445801,
+ "dim": 768
+}

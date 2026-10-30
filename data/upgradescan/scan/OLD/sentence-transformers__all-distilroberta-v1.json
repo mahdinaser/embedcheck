@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "sentence-transformers/all-distilroberta-v1",
+ "sha": "842eaed40bee4d61673a81c92d5689a8fed7a09f",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 11.66,
+ "dtype": "torch.float32",
+ "encode_s": 0.28940677642822266,
+ "dim": 768
+}

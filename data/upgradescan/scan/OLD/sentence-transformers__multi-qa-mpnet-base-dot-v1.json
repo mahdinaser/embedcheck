@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "sentence-transformers/multi-qa-mpnet-base-dot-v1",
+ "sha": "17997f24dca0df1a4fed68894fb0e1e133e60482",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 13.3,
+ "dtype": "torch.float32",
+ "encode_s": 0.5747964382171631,
+ "dim": 768
+}

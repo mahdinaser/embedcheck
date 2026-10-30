@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "BAAI/bge-small-en-v1.5",
+ "sha": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 1.82,
+ "dtype": "torch.float32",
+ "encode_s": 0.16232967376708984,
+ "dim": 384
+}

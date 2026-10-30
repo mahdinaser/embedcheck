@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "mixedbread-ai/mxbai-embed-large-v1",
+ "sha": "b33106f585b9ce46904ad7443a3b52b7a63e231c",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.94,
+ "dtype": "torch.float16",
+ "encode_s": 11.314832210540771,
+ "dim": 1024
+}

@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+ "sha": "e8f8c211226b894fcb81acc59f3b34ba3efd5f42",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 1.55,
+ "dtype": "torch.float32",
+ "encode_s": 0.2017345428466797,
+ "dim": 384
+}

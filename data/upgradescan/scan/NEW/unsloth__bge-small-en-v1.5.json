@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "unsloth/bge-small-en-v1.5",
+ "sha": "7382f1122c10708a1faa0bbe548674a14b1ffe7e",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.77,
+ "dtype": "torch.float32",
+ "encode_s": 0.14669513702392578,
+ "dim": 384
+}

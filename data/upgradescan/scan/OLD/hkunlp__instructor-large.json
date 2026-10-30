@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "hkunlp/instructor-large",
+ "sha": "54e5ffb8d484de506e59443b07dc819fb15c7233",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 50.26,
+ "dtype": "torch.float32",
+ "encode_s": 3.0231096744537354,
+ "dim": 768
+}

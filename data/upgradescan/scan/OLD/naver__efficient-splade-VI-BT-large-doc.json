@@ -1,0 +1,11 @@
+{
+ "tag": "OLD",
+ "id": "naver/efficient-splade-VI-BT-large-doc",
+ "sha": "6c9c7bef392354d060713055837e49616faa5fa2",
+ "ok": false,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "error": "ImportError: Module \"sentence_transformers.models\" does not define a \"Router\" attribute/class",
+ "tb_tail": "(\n                                  ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"~/vdrift/.venv_OLD/lib/python3.12/site-packages/sentence_transformers/SentenceTransformer.py\", line 1672, in _load_sbert_model\n    module_class = self._load_module_class_from_ref(\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"~/vdrift/.venv_OLD/lib/python3.12/site-packages/sentence_transformers/SentenceTransformer.py\", line 1562, in _load_module_class_from_ref\n    return import_from_string(class_ref)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"~/vdrift/.venv_OLD/lib/python3.12/site-packages/sentence_transformers/util.py\", line 1148, in import_from_string\n    raise ImportError(msg)\nImportError: Module \"sentence_transformers.models\" does not define a \"Router\" attribute/class\n"
+}

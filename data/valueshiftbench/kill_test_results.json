@@ -1,0 +1,746 @@
+{
+ "MiniLM": {
+  "all": {
+   "n": 300,
+   "WIN": 0.6666666666666666,
+   "WIN_ci": [
+    0.6166666666666667,
+    0.72
+   ],
+   "AUROC": 0.6902333333333334,
+   "COLLISION90": 0.49666666666666665,
+   "COLLISION90_para": 0.2866666666666667,
+   "mean_cos_para": 0.9154964089393616,
+   "mean_cos_upd": 0.8430770635604858
+  },
+  "category": {
+   "n": 50,
+   "WIN": 1.0,
+   "WIN_ci": [
+    1.0,
+    1.0
+   ],
+   "AUROC": 0.938,
+   "COLLISION90": 0.18,
+   "COLLISION90_para": 0.04,
+   "mean_cos_para": 0.9100873470306396,
+   "mean_cos_upd": 0.7863823175430298
+  },
+  "date": {
+   "n": 50,
+   "WIN": 0.08,
+   "WIN_ci": [
+    0.02,
+    0.16
+   ],
+   "AUROC": 0.09559999999999999,
+   "COLLISION90": 1.0,
+   "COLLISION90_para": 0.18,
+   "mean_cos_para": 0.9211685657501221,
+   "mean_cos_upd": 0.9538522362709045
+  },
+  "entity": {
+   "n": 50,
+   "WIN": 1.0,
+   "WIN_ci": [
+    1.0,
+    1.0
+   ],
+   "AUROC": 1.0,
+   "COLLISION90": 0.0,
+   "COLLISION90_para": 0.0,
+   "mean_cos_para": 0.917076826095581,
+   "mean_cos_upd": 0.6928320527076721
+  },
+  "number": {
+   "n": 50,
+   "WIN": 0.3,
+   "WIN_ci": [
+    0.18,
+    0.42
+   ],
+   "AUROC": 0.26439999999999997,
+   "COLLISION90": 0.98,
+   "COLLISION90_para": 0.58,
+   "mean_cos_para": 0.9073677062988281,
+   "mean_cos_upd": 0.9397807121276855
+  },
+  "polarity": {
+   "n": 50,
+   "WIN": 0.72,
+   "WIN_ci": [
+    0.6,
+    0.84
+   ],
+   "AUROC": 0.7212000000000001,
+   "COLLISION90": 0.62,
+   "COLLISION90_para": 0.14,
+   "mean_cos_para": 0.8831942081451416,
+   "mean_cos_upd": 0.8258786201477051
+  },
+  "status": {
+   "n": 50,
+   "WIN": 0.9,
+   "WIN_ci": [
+    0.8,
+    0.98
+   ],
+   "AUROC": 0.9368,
+   "COLLISION90": 0.16,
+   "COLLISION90_para": 0.02,
+   "mean_cos_para": 0.9540835618972778,
+   "mean_cos_upd": 0.8597363829612732
+  }
+ },
+ "BGE-small": {
+  "all": {
+   "n": 300,
+   "WIN": 0.99,
+   "WIN_ci": [
+    0.9766666666666667,
+    1.0
+   ],
+   "AUROC": 0.963388888888889,
+   "COLLISION90": 0.12,
+   "COLLISION90_para": 0.023333333333333334,
+   "mean_cos_para": 0.9511364698410034,
+   "mean_cos_upd": 0.850760817527771
+  },
+  "category": {
+   "n": 50,
+   "WIN": 0.98,
+   "WIN_ci": [
+    0.94,
+    1.0
+   ],
+   "AUROC": 0.9375999999999999,
+   "COLLISION90": 0.18,
+   "COLLISION90_para": 0.04,
+   "mean_cos_para": 0.9543361067771912,
+   "mean_cos_upd": 0.8961640000343323
+  },
+  "date": {
+   "n": 50,
+   "WIN": 0.96,
+   "WIN_ci": [
+    0.9,
+    1.0
+   ],
+   "AUROC": 0.962,
+   "COLLISION90": 0.04,
+   "COLLISION90_para": 0.0,
+   "mean_cos_para": 0.9538175463676453,
+   "mean_cos_upd": 0.8860819935798645
+  },
+  "entity": {
+   "n": 50,
+   "WIN": 1.0,
+   "WIN_ci": [
+    1.0,
+    1.0
+   ],
+   "AUROC": 0.9984000000000001,
+   "COLLISION90": 0.0,
+   "COLLISION90_para": 0.0,
+   "mean_cos_para": 0.9470025897026062,
+   "mean_cos_upd": 0.7951181530952454
+  },
+  "number": {
+   "n": 50,
+   "WIN": 1.0,
+   "WIN_ci": [
+    1.0,
+    1.0
+   ],
+   "AUROC": 0.99,
+   "COLLISION90": 0.02,
+   "COLLISION90_para": 0.0,
+   "mean_cos_para": 0.9522411227226257,
+   "mean_cos_upd": 0.8562419414520264
+  },
+  "polarity": {
+   "n": 50,
+   "WIN": 1.0,
+   "WIN_ci": [
+    1.0,
+    1.0
+   ],
+   "AUROC": 0.9996,
+   "COLLISION90": 0.0,
+   "COLLISION90_para": 0.0,
+   "mean_cos_para": 0.9314523339271545,
+   "mean_cos_upd": 0.8278957605361938
+  },
+  "status": {
+   "n": 50,
+   "WIN": 1.0,
+   "WIN_ci": [
+    1.0,
+    1.0
+   ],
+   "AUROC": 0.9956,
+   "COLLISION90": 0.02,
+   "COLLISION90_para": 0.0,
+   "mean_cos_para": 0.9679690003395081,
+   "mean_cos_upd": 0.8430628776550293
+  }
+ },
+ "E5-small": {
+  "all": {
+   "n": 300,
+   "WIN": 0.8666666666666667,
+   "WIN_ci": [
+    0.8266666666666667,
+    0.9033333333333333
+   ],
+   "AUROC": 0.8851666666666667,
+   "COLLISION90": 0.37333333333333335,
+   "COLLISION90_para": 0.11,
+   "mean_cos_para": 0.98037189245224,
+   "mean_cos_upd": 0.9521527290344238
+  },
+  "category": {
+   "n": 50,
+   "WIN": 1.0,
+   "WIN_ci": [
+    1.0,
+    1.0
+   ],
+   "AUROC": 0.9876,
+   "COLLISION90": 0.02,
+   "COLLISION90_para": 0.02,
+   "mean_cos_para": 0.9832241535186768,
+   "mean_cos_upd": 0.9551337361335754
+  },
+  "date": {
+   "n": 50,
+   "WIN": 0.94,
+   "WIN_ci": [
+    0.86,
+    1.0
+   ],
+   "AUROC": 0.9052,
+   "COLLISION90": 0.16,
+   "COLLISION90_para": 0.08,
+   "mean_cos_para": 0.9835519194602966,
+   "mean_cos_upd": 0.9618594646453857
+  },
+  "entity": {
+   "n": 50,
+   "WIN": 1.0,
+   "WIN_ci": [
+    1.0,
+    1.0
+   ],
+   "AUROC": 0.9995999999999999,
+   "COLLISION90": 0.0,
+   "COLLISION90_para": 0.0,
+   "mean_cos_para": 0.9789760708808899,
+   "mean_cos_upd": 0.9109883308410645
+  },
+  "number": {
+   "n": 50,
+   "WIN": 0.52,
+   "WIN_ci": [
+    0.38,
+    0.66
+   ],
+   "AUROC": 0.6448,
+   "COLLISION90": 0.8,
+   "COLLISION90_para": 0.3,
+   "mean_cos_para": 0.9789037108421326,
+   "mean_cos_upd": 0.973054051399231
+  },
+  "polarity": {
+   "n": 50,
+   "WIN": 0.82,
+   "WIN_ci": [
+    0.72,
+    0.92
+   ],
+   "AUROC": 0.8704,
+   "COLLISION90": 0.54,
+   "COLLISION90_para": 0.12,
+   "mean_cos_para": 0.9762732982635498,
+   "mean_cos_upd": 0.957071840763092
+  },
+  "status": {
+   "n": 50,
+   "WIN": 0.92,
+   "WIN_ci": [
+    0.84,
+    0.98
+   ],
+   "AUROC": 0.9252,
+   "COLLISION90": 0.3,
+   "COLLISION90_para": 0.02,
+   "mean_cos_para": 0.9813020825386047,
+   "mean_cos_upd": 0.9548091292381287
+  }
+ },
+ "GTE-small": {
+  "all": {
+   "n": 300,
+   "WIN": 0.84,
+   "WIN_ci": [
+    0.7966666666666666,
+    0.88
+   ],
+   "AUROC": 0.8186333333333333,
+   "COLLISION90": 0.44333333333333336,
+   "COLLISION90_para": 0.25666666666666665,
+   "mean_cos_para": 0.9842820167541504,
+   "mean_cos_upd": 0.9596827030181885
+  },
+  "category": {
+   "n": 50,
+   "WIN": 1.0,
+   "WIN_ci": [
+    1.0,
+    1.0
+   ],
+   "AUROC": 0.9924,
+   "COLLISION90": 0.02,
+   "COLLISION90_para": 0.02,
+   "mean_cos_para": 0.9869041442871094,
+   "mean_cos_upd": 0.9567360877990723
+  },
+  "date": {
+   "n": 50,
+   "WIN": 0.7,
+   "WIN_ci": [
+    0.5795,
+    0.82
+   ],
+   "AUROC": 0.6008,
+   "COLLISION90": 0.62,
+   "COLLISION90_para": 0.18,
+   "mean_cos_para": 0.9862967133522034,
+   "mean_cos_upd": 0.9843306541442871
+  },
+  "entity": {
+   "n": 50,
+   "WIN": 1.0,
+   "WIN_ci": [
+    1.0,
+    1.0
+   ],
+   "AUROC": 1.0,
+   "COLLISION90": 0.0,
+   "COLLISION90_para": 0.0,
+   "mean_cos_para": 0.9838929176330566,
+   "mean_cos_upd": 0.9195449352264404
+  },
+  "number": {
+   "n": 50,
+   "WIN": 0.38,
+   "WIN_ci": [
+    0.26,
+    0.52
+   ],
+   "AUROC": 0.3688,
+   "COLLISION90": 1.0,
+   "COLLISION90_para": 0.68,
+   "mean_cos_para": 0.9785110354423523,
+   "mean_cos_upd": 0.9851009249687195
+  },
+  "polarity": {
+   "n": 50,
+   "WIN": 0.98,
+   "WIN_ci": [
+    0.94,
+    1.0
+   ],
+   "AUROC": 0.9596,
+   "COLLISION90": 0.1,
+   "COLLISION90_para": 0.02,
+   "mean_cos_para": 0.979194700717926,
+   "mean_cos_upd": 0.9520413875579834
+  },
+  "status": {
+   "n": 50,
+   "WIN": 0.98,
+   "WIN_ci": [
+    0.94,
+    1.0
+   ],
+   "AUROC": 0.9832000000000001,
+   "COLLISION90": 0.04,
+   "COLLISION90_para": 0.0,
+   "mean_cos_para": 0.9908923506736755,
+   "mean_cos_upd": 0.9603428840637207
+  }
+ },
+ "Nomic-v1.5": {
+  "all": {
+   "n": 300,
+   "WIN": 0.44333333333333336,
+   "WIN_ci": [
+    0.3899166666666667,
+    0.49666666666666665
+   ],
+   "AUROC": 0.4343666666666667,
+   "COLLISION90": 0.7866666666666666,
+   "COLLISION90_para": 0.4766666666666667,
+   "mean_cos_para": 0.9543739557266235,
+   "mean_cos_upd": 0.9559026956558228
+  },
+  "category": {
+   "n": 50,
+   "WIN": 0.82,
+   "WIN_ci": [
+    0.7,
+    0.92
+   ],
+   "AUROC": 0.8196,
+   "COLLISION90": 0.5,
+   "COLLISION90_para": 0.06,
+   "mean_cos_para": 0.9555204510688782,
+   "mean_cos_upd": 0.9232747554779053
+  },
+  "date": {
+   "n": 50,
+   "WIN": 0.0,
+   "WIN_ci": [
+    0.0,
+    0.0
+   ],
+   "AUROC": 0.0,
+   "COLLISION90": 1.0,
+   "COLLISION90_para": 0.84,
+   "mean_cos_para": 0.9484583139419556,
+   "mean_cos_upd": 0.9881417155265808
+  },
+  "entity": {
+   "n": 50,
+   "WIN": 0.86,
+   "WIN_ci": [
+    0.76,
+    0.96
+   ],
+   "AUROC": 0.774,
+   "COLLISION90": 0.7,
+   "COLLISION90_para": 0.18,
+   "mean_cos_para": 0.9429189562797546,
+   "mean_cos_upd": 0.9055390954017639
+  },
+  "number": {
+   "n": 50,
+   "WIN": 0.0,
+   "WIN_ci": [
+    0.0,
+    0.0
+   ],
+   "AUROC": 0.0,
+   "COLLISION90": 1.0,
+   "COLLISION90_para": 0.88,
+   "mean_cos_para": 0.9540041089057922,
+   "mean_cos_upd": 0.9984807372093201
+  },
+  "polarity": {
+   "n": 50,
+   "WIN": 0.06,
+   "WIN_ci": [
+    0.0,
+    0.14
+   ],
+   "AUROC": 0.078,
+   "COLLISION90": 1.0,
+   "COLLISION90_para": 0.78,
+   "mean_cos_para": 0.9532144665718079,
+   "mean_cos_upd": 0.9866087436676025
+  },
+  "status": {
+   "n": 50,
+   "WIN": 0.92,
+   "WIN_ci": [
+    0.84,
+    0.98
+   ],
+   "AUROC": 0.9596,
+   "COLLISION90": 0.12,
+   "COLLISION90_para": 0.0,
+   "mean_cos_para": 0.9721279144287109,
+   "mean_cos_upd": 0.9333711862564087
+  }
+ },
+ "Qwen3-0.6B": {
+  "all": {
+   "n": 300,
+   "WIN": 0.6633333333333333,
+   "WIN_ci": [
+    0.6133333333333333,
+    0.7166666666666667
+   ],
+   "AUROC": 0.6184333333333334,
+   "COLLISION90": 0.5933333333333334,
+   "COLLISION90_para": 0.34,
+   "mean_cos_para": 0.9235304594039917,
+   "mean_cos_upd": 0.8931180834770203
+  },
+  "category": {
+   "n": 50,
+   "WIN": 0.98,
+   "WIN_ci": [
+    0.94,
+    1.0
+   ],
+   "AUROC": 0.9500000000000001,
+   "COLLISION90": 0.14,
+   "COLLISION90_para": 0.02,
+   "mean_cos_para": 0.9418173432350159,
+   "mean_cos_upd": 0.8573691844940186
+  },
+  "date": {
+   "n": 50,
+   "WIN": 0.42,
+   "WIN_ci": [
+    0.28,
+    0.56
+   ],
+   "AUROC": 0.2752,
+   "COLLISION90": 1.0,
+   "COLLISION90_para": 0.76,
+   "mean_cos_para": 0.9434133172035217,
+   "mean_cos_upd": 0.9664887189865112
+  },
+  "entity": {
+   "n": 50,
+   "WIN": 0.94,
+   "WIN_ci": [
+    0.86,
+    1.0
+   ],
+   "AUROC": 0.912,
+   "COLLISION90": 0.26,
+   "COLLISION90_para": 0.04,
+   "mean_cos_para": 0.9041696190834045,
+   "mean_cos_upd": 0.8099882006645203
+  },
+  "number": {
+   "n": 50,
+   "WIN": 0.08,
+   "WIN_ci": [
+    0.02,
+    0.16
+   ],
+   "AUROC": 0.07680000000000001,
+   "COLLISION90": 1.0,
+   "COLLISION90_para": 0.5,
+   "mean_cos_para": 0.9195650219917297,
+   "mean_cos_upd": 0.9700661301612854
+  },
+  "polarity": {
+   "n": 50,
+   "WIN": 0.56,
+   "WIN_ci": [
+    0.42,
+    0.68
+   ],
+   "AUROC": 0.5768,
+   "COLLISION90": 0.78,
+   "COLLISION90_para": 0.28,
+   "mean_cos_para": 0.8926111459732056,
+   "mean_cos_upd": 0.8812429904937744
+  },
+  "status": {
+   "n": 50,
+   "WIN": 1.0,
+   "WIN_ci": [
+    1.0,
+    1.0
+   ],
+   "AUROC": 0.9908,
+   "COLLISION90": 0.04,
+   "COLLISION90_para": 0.0,
+   "mean_cos_para": 0.9396061897277832,
+   "mean_cos_upd": 0.873553454875946
+  }
+ },
+ "TokenJaccard": {
+  "all": {
+   "n": 300,
+   "WIN": 0.02,
+   "WIN_ci": [
+    0.006666666666666667,
+    0.03666666666666667
+   ],
+   "AUROC": 0.06652777777777777,
+   "COLLISION90": 1.0,
+   "COLLISION90_para": 0.63,
+   "mean_cos_para": 0.4049662061794415,
+   "mean_cos_upd": 0.7153507048507048
+  },
+  "category": {
+   "n": 50,
+   "WIN": 0.0,
+   "WIN_ci": [
+    0.0,
+    0.0
+   ],
+   "AUROC": 0.06020000000000001,
+   "COLLISION90": 1.0,
+   "COLLISION90_para": 0.68,
+   "mean_cos_para": 0.3484675324675324,
+   "mean_cos_upd": 0.7229682539682541
+  },
+  "date": {
+   "n": 50,
+   "WIN": 0.0,
+   "WIN_ci": [
+    0.0,
+    0.0
+   ],
+   "AUROC": 0.006,
+   "COLLISION90": 1.0,
+   "COLLISION90_para": 0.36,
+   "mean_cos_para": 0.34825928972987796,
+   "mean_cos_upd": 0.6422066822066822
+  },
+  "entity": {
+   "n": 50,
+   "WIN": 0.0,
+   "WIN_ci": [
+    0.0,
+    0.0
+   ],
+   "AUROC": 0.063,
+   "COLLISION90": 1.0,
+   "COLLISION90_para": 0.26,
+   "mean_cos_para": 0.43886513486513484,
+   "mean_cos_upd": 0.6307705627705629
+  },
+  "number": {
+   "n": 50,
+   "WIN": 0.0,
+   "WIN_ci": [
+    0.0,
+    0.0
+   ],
+   "AUROC": 0.0,
+   "COLLISION90": 1.0,
+   "COLLISION90_para": 0.72,
+   "mean_cos_para": 0.30305620686503043,
+   "mean_cos_upd": 0.7636839826839826
+  },
+  "polarity": {
+   "n": 50,
+   "WIN": 0.04,
+   "WIN_ci": [
+    0.0,
+    0.1
+   ],
+   "AUROC": 0.10280000000000002,
+   "COLLISION90": 1.0,
+   "COLLISION90_para": 0.86,
+   "mean_cos_para": 0.5083082473082473,
+   "mean_cos_upd": 0.8082236652236651
+  },
+  "status": {
+   "n": 50,
+   "WIN": 0.08,
+   "WIN_ci": [
+    0.02,
+    0.16
+   ],
+   "AUROC": 0.0842,
+   "COLLISION90": 1.0,
+   "COLLISION90_para": 0.64,
+   "mean_cos_para": 0.4828408258408259,
+   "mean_cos_upd": 0.7242510822510824
+  }
+ },
+ "NLI-deberta-small": {
+  "all": {
+   "n": 300,
+   "WIN": 1.0,
+   "WIN_ci": [
+    1.0,
+    1.0
+   ],
+   "AUROC": 0.9991222222222222,
+   "COLLISION90": 0.0,
+   "COLLISION90_para": 0.006666666666666667,
+   "mean_cos_para": 0.9992069602012634,
+   "mean_cos_upd": 0.054369017481803894
+  },
+  "category": {
+   "n": 50,
+   "WIN": 1.0,
+   "WIN_ci": [
+    1.0,
+    1.0
+   ],
+   "AUROC": 1.0,
+   "COLLISION90": 0.0,
+   "COLLISION90_para": 0.0,
+   "mean_cos_para": 0.9998703598976135,
+   "mean_cos_upd": 0.13030408322811127
+  },
+  "date": {
+   "n": 50,
+   "WIN": 1.0,
+   "WIN_ci": [
+    1.0,
+    1.0
+   ],
+   "AUROC": 1.0,
+   "COLLISION90": 0.0,
+   "COLLISION90_para": 0.0,
+   "mean_cos_para": 0.9998396039009094,
+   "mean_cos_upd": 0.00038170217885635793
+  },
+  "entity": {
+   "n": 50,
+   "WIN": 1.0,
+   "WIN_ci": [
+    1.0,
+    1.0
+   ],
+   "AUROC": 1.0,
+   "COLLISION90": 0.0,
+   "COLLISION90_para": 0.0,
+   "mean_cos_para": 0.9962396025657654,
+   "mean_cos_upd": 0.0004700946738012135
+  },
+  "number": {
+   "n": 50,
+   "WIN": 1.0,
+   "WIN_ci": [
+    1.0,
+    1.0
+   ],
+   "AUROC": 1.0,
+   "COLLISION90": 0.0,
+   "COLLISION90_para": 0.0,
+   "mean_cos_para": 0.9998111128807068,
+   "mean_cos_upd": 0.0012361884582787752
+  },
+  "polarity": {
+   "n": 50,
+   "WIN": 1.0,
+   "WIN_ci": [
+    1.0,
+    1.0
+   ],
+   "AUROC": 1.0,
+   "COLLISION90": 0.0,
+   "COLLISION90_para": 0.0,
+   "mean_cos_para": 0.9996398091316223,
+   "mean_cos_upd": 0.0005540919373743236
+  },
+  "status": {
+   "n": 50,
+   "WIN": 1.0,
+   "WIN_ci": [
+    1.0,
+    1.0
+   ],
+   "AUROC": 1.0,
+   "COLLISION90": 0.0,
+   "COLLISION90_para": 0.02,
+   "mean_cos_para": 0.9998406171798706,
+   "mean_cos_upd": 0.19326791167259216
+  }
+ }
+}

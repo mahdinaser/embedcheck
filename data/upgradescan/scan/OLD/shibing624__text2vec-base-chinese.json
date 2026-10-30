@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "shibing624/text2vec-base-chinese",
+ "sha": "183bb99aa7af74355fb58d16edf8c13ae7c5433e",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 14.22,
+ "dtype": "torch.float32",
+ "encode_s": 0.994647741317749,
+ "dim": 768
+}

@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "nlpai-lab/KURE-v1",
+ "sha": "8b418a58414668e75532ed045c22d9ca018ae2b2",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 58.69,
+ "dtype": "torch.float32",
+ "encode_s": 2.6494312286376953,
+ "dim": 1024
+}

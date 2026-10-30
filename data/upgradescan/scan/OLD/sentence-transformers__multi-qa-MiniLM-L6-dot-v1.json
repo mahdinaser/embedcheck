@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "sentence-transformers/multi-qa-MiniLM-L6-dot-v1",
+ "sha": "4151c507ffb0f2fcd311cf431f54b5fc7d097851",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 7.66,
+ "dtype": "torch.float32",
+ "encode_s": 0.0750589370727539,
+ "dim": 384
+}

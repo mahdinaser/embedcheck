@@ -1,0 +1,11 @@
+{
+ "tag": "OLD",
+ "id": "jinaai/jina-clip-v1",
+ "sha": "ceb3e44ca4d6eceaa4f3fb58b1c1a5748b3f29b6",
+ "ok": false,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "error": "ImportError: This modeling file requires the following packages that were not found in your environment: timm. Run `pip install timm`",
+ "tb_tail": "\n    final_module = get_cached_module_file(\n                   ^^^^^^^^^^^^^^^^^^^^^^^\n  File \"~/vdrift/.venv_OLD/lib/python3.12/site-packages/transformers/dynamic_module_utils.py\", line 404, in get_cached_module_file\n    get_cached_module_file(\n  File \"~/vdrift/.venv_OLD/lib/python3.12/site-packages/transformers/dynamic_module_utils.py\", line 366, in get_cached_module_file\n    modules_needed = check_imports(resolved_module_file)\n                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"~/vdrift/.venv_OLD/lib/python3.12/site-packages/transformers/dynamic_module_utils.py\", line 198, in check_imports\n    raise ImportError(\nImportError: This modeling file requires the following packages that were not found in your environment: timm. Run `pip install timm`\n"
+}

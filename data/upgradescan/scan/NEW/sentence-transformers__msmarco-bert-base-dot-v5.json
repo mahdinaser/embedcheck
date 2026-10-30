@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "sentence-transformers/msmarco-bert-base-dot-v5",
+ "sha": "dbf04e3911e5b11c887fe563d3f2479f81c4415f",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.95,
+ "dtype": "torch.float32",
+ "encode_s": 0.523352861404419,
+ "dim": 768
+}

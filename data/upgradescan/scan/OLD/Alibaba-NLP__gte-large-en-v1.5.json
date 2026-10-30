@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "Alibaba-NLP/gte-large-en-v1.5",
+ "sha": "104333d6af6f97649377c2afbde10a7704870c7b",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 52.11,
+ "dtype": "torch.float32",
+ "encode_s": 2.5578222274780273,
+ "dim": 1024
+}

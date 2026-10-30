@@ -1,0 +1,48 @@
+{
+ "primary": {
+  "envs": [
+   {
+    "st": "3.4.1",
+    "tf": "4.48.3",
+    "torch": "2.14.1+cpu",
+    "device": "cpu"
+   },
+   {
+    "st": "6.2.0",
+    "tf": "5.21.0",
+    "torch": "2.14.1+cpu",
+    "device": "cpu"
+   }
+  ],
+  "models": {
+   "gte-small": {
+    "status": "ok",
+    "cos_median": 1.0,
+    "cos_p01": 0.9999998807907104,
+    "cos_min": 0.9999997615814209,
+    "ndcg_old": 72.11669072506704,
+    "ndcg_new": 72.11669072506704,
+    "ndcg_cross": 72.11669072506704,
+    "delta_cross": 0.0,
+    "top10_overlap": 1.0,
+    "maxlen_old": 512,
+    "maxlen_new": 512,
+    "drifted": false
+   },
+   "gte-base": {
+    "status": "ok",
+    "cos_median": 1.0,
+    "cos_p01": 0.9999998807907104,
+    "cos_min": 0.9999997019767761,
+    "ndcg_old": 75.43437269853463,
+    "ndcg_new": 75.43437269853463,
+    "ndcg_cross": 75.43437269853463,
+    "delta_cross": 0.0,
+    "top10_overlap": 1.0,
+    "maxlen_old": 512,
+    "maxlen_new": 512,
+    "drifted": false
+   }
+  }
+ }
+}

@@ -1,0 +1,1872 @@
+{
+ "summary": {
+  "models_compared": 86,
+  "not_comparable": [
+   [
+    "jinaai/jina-embeddings-v2-base-code",
+    "ImportError: cannot import name 'find_pruneable_heads_and_indices' from 'transformers.pytorch_utils' (~/vdrift/.venv_NEW/lib/python3.12/site-packages/transformers/pytorch_utils.py)"
+   ],
+   [
+    "jinaai/jina-embeddings-v2-base-en",
+    "ModuleNotFoundError: No module named 'transformers.onnx'"
+   ],
+   [
+    "jinaai/jina-embeddings-v2-small-en",
+    "ModuleNotFoundError: No module named 'transformers.onnx'"
+   ],
+   [
+    "jinaai/jina-embeddings-v3",
+    "AttributeError: 'XLMRobertaLoRA' object has no attribute 'all_tied_weights_keys'"
+   ]
+  ],
+  "a_fast_to_slow": [],
+  "a_class_change": [
+   [
+    "Alibaba-NLP/gte-base-en-v1.5",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "Alibaba-NLP/gte-large-en-v1.5",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "Alibaba-NLP/gte-modernbert-base",
+    "PreTrainedTokenizerFast",
+    "TokenizersBackend"
+   ],
+   [
+    "Alibaba-NLP/gte-multilingual-base",
+    "XLMRobertaTokenizerFast",
+    "XLMRobertaTokenizer"
+   ],
+   [
+    "BAAI/bge-base-en-v1.5",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "BAAI/bge-base-zh-v1.5",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "BAAI/bge-large-en-v1.5",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "BAAI/bge-large-zh-v1.5",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "BAAI/bge-m3",
+    "XLMRobertaTokenizerFast",
+    "XLMRobertaTokenizer"
+   ],
+   [
+    "BAAI/bge-small-en-v1.5",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "FremyCompany/BioLORD-2023",
+    "MPNetTokenizerFast",
+    "MPNetTokenizer"
+   ],
+   [
+    "NeuML/pubmedbert-base-embeddings",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "Snowflake/snowflake-arctic-embed-l-v2.0",
+    "XLMRobertaTokenizerFast",
+    "XLMRobertaTokenizer"
+   ],
+   [
+    "Snowflake/snowflake-arctic-embed-l",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "Snowflake/snowflake-arctic-embed-m",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "Snowflake/snowflake-arctic-embed-xs",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "Stern5497/sbert-legal-xlm-roberta-base",
+    "PreTrainedTokenizerFast",
+    "TokenizersBackend"
+   ],
+   [
+    "TaylorAI/bge-micro-v2",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "TimKond/S-PubMedBert-MedQuAD",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "WhereIsAI/UAE-Large-V1",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "aari1995/German_Semantic_STS_V2",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "ai-forever/FRIDA",
+    "RobertaTokenizerFast",
+    "RobertaTokenizer"
+   ],
+   [
+    "cointegrated/rubert-tiny2",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "datasocietyco/bge-base-en-v1.5-course-recommender-v5",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "deepvk/USER-bge-m3",
+    "XLMRobertaTokenizerFast",
+    "XLMRobertaTokenizer"
+   ],
+   [
+    "deepvk/USER2-base",
+    "PreTrainedTokenizerFast",
+    "TokenizersBackend"
+   ],
+   [
+    "dragonkue/snowflake-arctic-embed-l-v2.0-ko",
+    "XLMRobertaTokenizerFast",
+    "XLMRobertaTokenizer"
+   ],
+   [
+    "emrecan/bert-base-turkish-cased-mean-nli-stsb-tr",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "gmunkhtur/paraphrase-multilingual-minilm-l12-v3-mn",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "hkunlp/instructor-large",
+    "T5TokenizerFast",
+    "T5Tokenizer"
+   ],
+   [
+    "hunkim/sentence-transformer-klue",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "ibm-granite/granite-embedding-125m-english",
+    "RobertaTokenizerFast",
+    "RobertaTokenizer"
+   ],
+   [
+    "ibm-granite/granite-embedding-small-english-r2",
+    "PreTrainedTokenizerFast",
+    "TokenizersBackend"
+   ],
+   [
+    "imvladikon/sentence-transformers-alephbert",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "intfloat/e5-base-v2",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "intfloat/e5-base",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "intfloat/e5-large-v2",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "intfloat/e5-large",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "intfloat/e5-small-v2",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "intfloat/multilingual-e5-base",
+    "XLMRobertaTokenizerFast",
+    "XLMRobertaTokenizer"
+   ],
+   [
+    "intfloat/multilingual-e5-large-instruct",
+    "XLMRobertaTokenizerFast",
+    "XLMRobertaTokenizer"
+   ],
+   [
+    "intfloat/multilingual-e5-large",
+    "XLMRobertaTokenizerFast",
+    "XLMRobertaTokenizer"
+   ],
+   [
+    "intfloat/multilingual-e5-small",
+    "XLMRobertaTokenizerFast",
+    "XLMRobertaTokenizer"
+   ],
+   [
+    "jhgan/ko-sroberta-multitask",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "joe32140/ModernBERT-base-msmarco",
+    "PreTrainedTokenizerFast",
+    "TokenizersBackend"
+   ],
+   [
+    "mixedbread-ai/deepset-mxbai-embed-de-large-v1",
+    "XLMRobertaTokenizerFast",
+    "XLMRobertaTokenizer"
+   ],
+   [
+    "mixedbread-ai/mxbai-embed-2d-large-v1",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "mixedbread-ai/mxbai-embed-large-v1",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "nlpai-lab/KURE-v1",
+    "XLMRobertaTokenizerFast",
+    "XLMRobertaTokenizer"
+   ],
+   [
+    "nomic-ai/nomic-embed-text-v1.5",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "nomic-ai/nomic-embed-text-v1",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "nomic-ai/nomic-embed-text-v2-moe",
+    "XLMRobertaTokenizerFast",
+    "XLMRobertaTokenizer"
+   ],
+   [
+    "pritamdeka/S-PubMedBert-MS-MARCO",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "redis/langcache-embed-v1",
+    "PreTrainedTokenizerFast",
+    "TokenizersBackend"
+   ],
+   [
+    "sdadas/mmlw-retrieval-roberta-large",
+    "PreTrainedTokenizerFast",
+    "TokenizersBackend"
+   ],
+   [
+    "sentence-transformers-testing/stsb-bert-tiny-safetensors",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "sentence-transformers/LaBSE",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "sentence-transformers/all-MiniLM-L12-v2",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "sentence-transformers/all-MiniLM-L6-v2",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "sentence-transformers/all-distilroberta-v1",
+    "RobertaTokenizerFast",
+    "RobertaTokenizer"
+   ],
+   [
+    "sentence-transformers/all-mpnet-base-v2",
+    "MPNetTokenizerFast",
+    "MPNetTokenizer"
+   ],
+   [
+    "sentence-transformers/all-roberta-large-v1",
+    "RobertaTokenizerFast",
+    "RobertaTokenizer"
+   ],
+   [
+    "sentence-transformers/bert-base-nli-mean-tokens",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "sentence-transformers/distilbert-base-nli-stsb-mean-tokens",
+    "DistilBertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "sentence-transformers/distiluse-base-multilingual-cased-v1",
+    "DistilBertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "sentence-transformers/distiluse-base-multilingual-cased-v2",
+    "DistilBertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "sentence-transformers/msmarco-MiniLM-L12-cos-v5",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "sentence-transformers/msmarco-MiniLM-L6-v3",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "sentence-transformers/msmarco-bert-base-dot-v5",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "sentence-transformers/msmarco-distilbert-base-tas-b",
+    "DistilBertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "sentence-transformers/multi-qa-MiniLM-L6-dot-v1",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "sentence-transformers/multi-qa-mpnet-base-dot-v1",
+    "MPNetTokenizerFast",
+    "MPNetTokenizer"
+   ],
+   [
+    "sentence-transformers/nli-mpnet-base-v2",
+    "MPNetTokenizerFast",
+    "MPNetTokenizer"
+   ],
+   [
+    "sentence-transformers/paraphrase-MiniLM-L3-v2",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "sentence-transformers/paraphrase-MiniLM-L6-v2",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "sentence-transformers/paraphrase-albert-small-v2",
+    "AlbertTokenizerFast",
+    "AlbertTokenizer"
+   ],
+   [
+    "sentence-transformers/paraphrase-mpnet-base-v2",
+    "MPNetTokenizerFast",
+    "MPNetTokenizer"
+   ],
+   [
+    "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+    "PreTrainedTokenizerFast",
+    "TokenizersBackend"
+   ],
+   [
+    "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+    "XLMRobertaTokenizerFast",
+    "XLMRobertaTokenizer"
+   ],
+   [
+    "shibing624/text2vec-base-chinese",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "thenlper/gte-base",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "thenlper/gte-large",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "thenlper/gte-small",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ],
+   [
+    "unsloth/bge-small-en-v1.5",
+    "BertTokenizerFast",
+    "BertTokenizer"
+   ]
+  ],
+  "b_any_input_id_diff": [
+   [
+    "gmunkhtur/paraphrase-multilingual-minilm-l12-v3-mn",
+    20
+   ]
+  ],
+  "c_unk_frac_old_mean": 0.0,
+  "c_unk_frac_new_mean": 0.004651162790697674,
+  "c_unk_increase": [
+   [
+    "gmunkhtur/paraphrase-multilingual-minilm-l12-v3-mn",
+    0.0,
+    0.4
+   ]
+  ]
+ },
+ "rows": [
+  {
+   "id": "Alibaba-NLP/gte-base-en-v1.5",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "Alibaba-NLP/gte-large-en-v1.5",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "Alibaba-NLP/gte-modernbert-base",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "PreTrainedTokenizerFast",
+   "class_new": "TokenizersBackend",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 50368,
+   "vocab_new": 50368,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "Alibaba-NLP/gte-multilingual-base",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "XLMRobertaTokenizerFast",
+   "class_new": "XLMRobertaTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 250002,
+   "vocab_new": 250002,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "BAAI/bge-base-en-v1.5",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "BAAI/bge-base-zh-v1.5",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 21128,
+   "vocab_new": 21128,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "BAAI/bge-large-en-v1.5",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "BAAI/bge-large-zh-v1.5",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 21128,
+   "vocab_new": 21128,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "BAAI/bge-m3",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "XLMRobertaTokenizerFast",
+   "class_new": "XLMRobertaTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 250002,
+   "vocab_new": 250002,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "BAAI/bge-small-en-v1.5",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "FremyCompany/BioLORD-2023",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "MPNetTokenizerFast",
+   "class_new": "MPNetTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30527,
+   "vocab_new": 30527,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "NeuML/pubmedbert-base-embeddings",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "Snowflake/snowflake-arctic-embed-l-v2.0",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "XLMRobertaTokenizerFast",
+   "class_new": "XLMRobertaTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 250002,
+   "vocab_new": 250002,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "Snowflake/snowflake-arctic-embed-l",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "Snowflake/snowflake-arctic-embed-m",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "Snowflake/snowflake-arctic-embed-xs",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "Stern5497/sbert-legal-xlm-roberta-base",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "PreTrainedTokenizerFast",
+   "class_new": "TokenizersBackend",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 128000,
+   "vocab_new": 128000,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "TaylorAI/bge-micro-v2",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "TimKond/S-PubMedBert-MedQuAD",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 28895,
+   "vocab_new": 28895,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "WhereIsAI/UAE-Large-V1",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "aari1995/German_Semantic_STS_V2",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 31102,
+   "vocab_new": 31102,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "ai-forever/FRIDA",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "RobertaTokenizerFast",
+   "class_new": "RobertaTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 93651,
+   "vocab_new": 93651,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "bkai-foundation-models/vietnamese-bi-encoder",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "PhobertTokenizer",
+   "class_new": "PhobertTokenizer",
+   "fast_old": false,
+   "fast_new": false,
+   "vocab_old": 64001,
+   "vocab_new": 64001,
+   "class_change": false,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "cointegrated/rubert-tiny2",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 83828,
+   "vocab_new": 83828,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "datasocietyco/bge-base-en-v1.5-course-recommender-v5",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "deepvk/USER-bge-m3",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "XLMRobertaTokenizerFast",
+   "class_new": "XLMRobertaTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 46166,
+   "vocab_new": 46166,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "deepvk/USER2-base",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "PreTrainedTokenizerFast",
+   "class_new": "TokenizersBackend",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 50368,
+   "vocab_new": 50368,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "dragonkue/snowflake-arctic-embed-l-v2.0-ko",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "XLMRobertaTokenizerFast",
+   "class_new": "XLMRobertaTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 250002,
+   "vocab_new": 250002,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "emrecan/bert-base-turkish-cased-mean-nli-stsb-tr",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 32000,
+   "vocab_new": 32000,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "gmunkhtur/paraphrase-multilingual-minilm-l12-v3-mn",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 52000,
+   "vocab_new": 52000,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 20,
+   "unk_old": 0.0,
+   "unk_new": 0.4
+  },
+  {
+   "id": "hkunlp/instructor-large",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "T5TokenizerFast",
+   "class_new": "T5Tokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 32100,
+   "vocab_new": 32100,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "hunkim/sentence-transformer-klue",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 32000,
+   "vocab_new": 32000,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "ibm-granite/granite-embedding-125m-english",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "RobertaTokenizerFast",
+   "class_new": "RobertaTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 50265,
+   "vocab_new": 50265,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "ibm-granite/granite-embedding-small-english-r2",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "PreTrainedTokenizerFast",
+   "class_new": "TokenizersBackend",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 50368,
+   "vocab_new": 50368,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "imvladikon/sentence-transformers-alephbert",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 52000,
+   "vocab_new": 52000,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "intfloat/e5-base-v2",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "intfloat/e5-base",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "intfloat/e5-large-v2",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "intfloat/e5-large",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "intfloat/e5-small-v2",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "intfloat/multilingual-e5-base",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "XLMRobertaTokenizerFast",
+   "class_new": "XLMRobertaTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 250002,
+   "vocab_new": 250002,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "intfloat/multilingual-e5-large-instruct",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "XLMRobertaTokenizerFast",
+   "class_new": "XLMRobertaTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 250002,
+   "vocab_new": 250002,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "intfloat/multilingual-e5-large",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "XLMRobertaTokenizerFast",
+   "class_new": "XLMRobertaTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 250002,
+   "vocab_new": 250002,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "intfloat/multilingual-e5-small",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "XLMRobertaTokenizerFast",
+   "class_new": "XLMRobertaTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 250002,
+   "vocab_new": 250002,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "jhgan/ko-sroberta-multitask",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 32000,
+   "vocab_new": 32000,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "jinaai/jina-embeddings-v2-base-code",
+   "old_ok": true,
+   "new_ok": false,
+   "error_old": null,
+   "error_new": "ImportError: cannot import name 'find_pruneable_heads_and_indices' from 'transformers.pytorch_utils' (~/vdrift/.venv_NEW/lib/python3.12/site-packages/transformers/pytorch_utils.py)"
+  },
+  {
+   "id": "jinaai/jina-embeddings-v2-base-en",
+   "old_ok": true,
+   "new_ok": false,
+   "error_old": null,
+   "error_new": "ModuleNotFoundError: No module named 'transformers.onnx'"
+  },
+  {
+   "id": "jinaai/jina-embeddings-v2-small-en",
+   "old_ok": true,
+   "new_ok": false,
+   "error_old": null,
+   "error_new": "ModuleNotFoundError: No module named 'transformers.onnx'"
+  },
+  {
+   "id": "jinaai/jina-embeddings-v3",
+   "old_ok": true,
+   "new_ok": false,
+   "error_old": null,
+   "error_new": "AttributeError: 'XLMRobertaLoRA' object has no attribute 'all_tied_weights_keys'"
+  },
+  {
+   "id": "joe32140/ModernBERT-base-msmarco",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "PreTrainedTokenizerFast",
+   "class_new": "TokenizersBackend",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 50368,
+   "vocab_new": 50368,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "mixedbread-ai/deepset-mxbai-embed-de-large-v1",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "XLMRobertaTokenizerFast",
+   "class_new": "XLMRobertaTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 178885,
+   "vocab_new": 178885,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "mixedbread-ai/mxbai-embed-2d-large-v1",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "mixedbread-ai/mxbai-embed-large-v1",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "nlpai-lab/KURE-v1",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "XLMRobertaTokenizerFast",
+   "class_new": "XLMRobertaTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 250002,
+   "vocab_new": 250002,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "nomic-ai/nomic-embed-text-v1.5",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "nomic-ai/nomic-embed-text-v1",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "nomic-ai/nomic-embed-text-v2-moe",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "XLMRobertaTokenizerFast",
+   "class_new": "XLMRobertaTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 250002,
+   "vocab_new": 250002,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "pritamdeka/S-PubMedBert-MS-MARCO",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "redis/langcache-embed-v1",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "PreTrainedTokenizerFast",
+   "class_new": "TokenizersBackend",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 50368,
+   "vocab_new": 50368,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sdadas/mmlw-retrieval-roberta-large",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "PreTrainedTokenizerFast",
+   "class_new": "TokenizersBackend",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 128001,
+   "vocab_new": 128001,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers-testing/stsb-bert-tiny-safetensors",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/LaBSE",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 501153,
+   "vocab_new": 501153,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L12-v2",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/all-MiniLM-L6-v2",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/all-distilroberta-v1",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "RobertaTokenizerFast",
+   "class_new": "RobertaTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 50265,
+   "vocab_new": 50265,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/all-mpnet-base-v2",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "MPNetTokenizerFast",
+   "class_new": "MPNetTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30527,
+   "vocab_new": 30527,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/all-roberta-large-v1",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "RobertaTokenizerFast",
+   "class_new": "RobertaTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 50265,
+   "vocab_new": 50265,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/bert-base-nli-mean-tokens",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/distilbert-base-nli-stsb-mean-tokens",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "DistilBertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/distiluse-base-multilingual-cased-v1",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "DistilBertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 119547,
+   "vocab_new": 119547,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/distiluse-base-multilingual-cased-v2",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "DistilBertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 119547,
+   "vocab_new": 119547,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/msmarco-MiniLM-L12-cos-v5",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/msmarco-MiniLM-L6-v3",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/msmarco-bert-base-dot-v5",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/msmarco-distilbert-base-tas-b",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "DistilBertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/multi-qa-MiniLM-L6-cos-v1",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/multi-qa-MiniLM-L6-dot-v1",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/multi-qa-mpnet-base-dot-v1",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "MPNetTokenizerFast",
+   "class_new": "MPNetTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30527,
+   "vocab_new": 30527,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/nli-mpnet-base-v2",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "MPNetTokenizerFast",
+   "class_new": "MPNetTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30527,
+   "vocab_new": 30527,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/paraphrase-MiniLM-L3-v2",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/paraphrase-MiniLM-L6-v2",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/paraphrase-albert-small-v2",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "AlbertTokenizerFast",
+   "class_new": "AlbertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30000,
+   "vocab_new": 30000,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/paraphrase-mpnet-base-v2",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "MPNetTokenizerFast",
+   "class_new": "MPNetTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30527,
+   "vocab_new": 30527,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "PreTrainedTokenizerFast",
+   "class_new": "TokenizersBackend",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 250002,
+   "vocab_new": 250002,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "sentence-transformers/paraphrase-multilingual-mpnet-base-v2",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "XLMRobertaTokenizerFast",
+   "class_new": "XLMRobertaTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 250002,
+   "vocab_new": 250002,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "shibing624/text2vec-base-chinese",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 21128,
+   "vocab_new": 21128,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "thenlper/gte-base",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "thenlper/gte-large",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "thenlper/gte-small",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  },
+  {
+   "id": "unsloth/bge-small-en-v1.5",
+   "old_ok": true,
+   "new_ok": true,
+   "class_old": "BertTokenizerFast",
+   "class_new": "BertTokenizer",
+   "fast_old": true,
+   "fast_new": true,
+   "vocab_old": 30522,
+   "vocab_new": 30522,
+   "class_change": true,
+   "fast_to_slow": false,
+   "ids_differ_sents": 0,
+   "unk_old": 0.0,
+   "unk_new": 0.0
+  }
+ ]
+}

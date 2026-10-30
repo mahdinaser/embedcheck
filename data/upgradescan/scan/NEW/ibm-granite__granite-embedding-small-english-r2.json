@@ -1,0 +1,13 @@
+{
+ "tag": "NEW",
+ "id": "ibm-granite/granite-embedding-small-english-r2",
+ "sha": "2ab6fa8ea2d674564defd37171ae19079b864b33",
+ "ok": true,
+ "st": "6.2.0",
+ "tf": "5.21.0",
+ "torch": "2.14.1+cpu",
+ "load_s": 0.82,
+ "dtype": "torch.bfloat16",
+ "encode_s": 1.4352340698242188,
+ "dim": 384
+}

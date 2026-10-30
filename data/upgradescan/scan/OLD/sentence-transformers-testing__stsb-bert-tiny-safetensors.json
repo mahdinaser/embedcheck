@@ -1,0 +1,13 @@
+{
+ "tag": "OLD",
+ "id": "sentence-transformers-testing/stsb-bert-tiny-safetensors",
+ "sha": "f3cb857cba53019a20df283396bcca179cf051a4",
+ "ok": true,
+ "st": "3.4.1",
+ "tf": "4.48.3",
+ "torch": "2.14.1+cpu",
+ "load_s": 2.84,
+ "dtype": "torch.float32",
+ "encode_s": 0.006500720977783203,
+ "dim": 128
+}
